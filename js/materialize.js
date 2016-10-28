@@ -1947,7 +1947,7 @@ $(document).ready(function(){
 })(window);
 ;Materialize.toast = function (message, displayLength, className, completeCallback) {
     className = className || "";
-
+    
     var container = document.getElementById('toast-container');
 
     // Create toast container if it does not exist
