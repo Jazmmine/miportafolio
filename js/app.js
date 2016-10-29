@@ -178,17 +178,17 @@ $(document).ready(function(){
 	});
 
 	/*btn footer*/
-	$("#btn-linkendin").click(function mostrarLinken(){
+/*	$("#btn-linkendin").click(function mostrarLinken(){
 		var cuadroMensaje = $("#mensaje-linkendin");
 			cuadroMensaje.removeClass("ocultar");
 			cuadroMensaje.addClass("mostrar");
 	});
 
-/*	$("#btn-linkendin").focusout(function ocultarLinken(){
+	$("#btn-linkendin").focusout(function ocultarLinken(){
 		var cuadroMensaje = $("#mensaje-linkendin");
 			cuadroMensaje.removeClass("mostrar");
 			cuadroMensaje.addClass("ocultar");
-	});*/
+	});
 
 	$("#btn-git").click(function mostrarGit(){
 		var cuadroMensaje = $("#mensaje-git");
@@ -204,6 +204,6 @@ $(document).ready(function(){
 		var cuadroMensaje = $("#mensaje-phone");
 			cuadroMensaje.removeClass("ocultar");
 			cuadroMensaje.addClass("mostrar");
-	});
+	});*/
 
 });

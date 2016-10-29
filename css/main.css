@@ -512,7 +512,7 @@ li,ol,ul{
   -webkit-transform: scale(0.7) rotate(12deg);
   transform: scale(0.7) rotate(12deg);
 }
-
+/*
 .mostrar{
     display: block;
     background-color: rgba(51,51,51,0.8);
@@ -547,7 +547,7 @@ li,ol,ul{
     position: absolute;
     bottom: 100%;
     right: 71px;
-}
+}*/
 
 .link-contact-size{
 	font-size: 10px!important;
@@ -608,11 +608,26 @@ li,ol,ul{
     transform:rotateY(180deg);
 }
 
-#scroll-drow{
+#scroll-drow1{
 	transition: all .5s ease-in-out;
 }
 
-#scroll-drow:hover{
+#scroll-drow1:hover{
 	transform:rotateY(180deg);
 }
 
+#scroll-drow2{
+	transition: all .5s ease-in-out;
+}
+
+#scroll-drow2:hover{
+	transform:rotateY(180deg);
+}
+
+#scroll-drow3{
+	transition: all .5s ease-in-out;
+}
+
+#scroll-drow3:hover{
+	transform:rotateY(180deg);
+}
