@@ -11,7 +11,7 @@ li,ol,ul{
 	list-style:none
 }
 
-.loader-hidden, .mobile, .main, .infos{
+.loader-hidden, .mobile, .main, .infos, .html{
 	width: 100vw !important;
     height: 100vh !important;
 } 
