@@ -122,34 +122,34 @@ $(document).ready(function(){
 	/*navbar*/
 	$("#cnt-new-design-life").click(function(e){
 		e.preventDefault();
-		$("#particles-js").addClass("hidden");	
-		$("#portfiles").addClass("hidden");
-		$("#contact-me").addClass("hidden");			
-		$("#ctn").removeClass("hidden");	
+		$("#particles-js").slideUp();	
+		$("#portfiles").slideUp();
+		$("#contact-me").slideUp();			
+		$("#ctn").show("slow");	
 	});
 
 	$("#cnt-portfolio").click(function(e){
 		e.preventDefault();
-		$("#ctn").addClass("hidden");
-		$("#particles-js").addClass("hidden");
-		$("#contact-me").addClass("hidden");	
-		$("#portfiles").removeClass("hidden");	
+		$("#ctn").slideUp();
+		$("#particles-js").slideUp();
+		$("#contact-me").slideUp();	
+		$("#portfiles").show("slow");	
 	});
 
 	$("#cnt-skills").click(function(e){
 		e.preventDefault();
-		$("#ctn").addClass("hidden");
-		$("#portfiles").addClass("hidden");
-		$("#contact-me").addClass("hidden");	
-		$("#particles-js").removeClass("hidden");			
+		$("#ctn").slideUp();
+		$("#portfiles").slideUp();
+		$("#contact-me").slideUp();	
+		$("#particles-js").show("slow");			
 	});
 
 	$("#cnt-contact-me").click(function(e){
 		e.preventDefault();
-		$("#ctn").addClass("hidden");
-		$("#portfiles").addClass("hidden");
-		$("#particles-js").addClass("hidden");
-		$("#contact-me").removeClass("hidden");			
+		$("#ctn").slideUp();	
+		$("#portfiles").slideUp();	
+		$("#particles-js").slideUp();	
+		$("#contact-me").show("slow");		
 	});
 
 	

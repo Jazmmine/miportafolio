@@ -183,6 +183,7 @@ li,ol,ul{
 	color: white;
 	margin-left: 20px;
 }
+
 .ctn-row{
 	margin-top: 100px;
 }
@@ -614,3 +615,4 @@ li,ol,ul{
 #scroll-drow:hover{
 	transform:rotateY(180deg);
 }
+
