@@ -55,6 +55,10 @@ li,ol,ul{
     transform: matrix(1, 0, 0, 1, 10, 0);
 }*/
 
+.nav{
+	z-index: 998 !important;
+	position: fixed;
+}
 .nav-slider{
 	display: table-cell;
 	position: fixed;
@@ -72,13 +76,22 @@ li,ol,ul{
     position: relative;
 }
 
-.nav-slider > .celda > div{
+.show{
  	background-color: black;
 	width: 250px;
 	height: 100px;
 	position: absolute;
 	right: 0;
 	opacity: 0;
+}
+
+.show:hover{
+ 	background-color: black;
+	width: 250px;
+	height: 100px;
+	position: absolute;
+	right: 0;
+	opacity: 1;
 }
 
 #border-left-color1{
@@ -165,7 +178,7 @@ li,ol,ul{
 
 .title-main{
 	display: inline-block;
-	font-size: 8rem;
+	font-size: 6.9rem !important;
 	font-weight: bold;
 	color: white;
 	margin-left: 20px;
@@ -179,6 +192,7 @@ li,ol,ul{
 }
 .drow-icon{
 	color: white;
+	cursor: pointer;
 }
 
 .drow-icon > i{
@@ -543,4 +557,60 @@ li,ol,ul{
 	margin-top: 6px;
     font-size: 16px;
     color: beige;
+}
+
+.js-load-container{
+	position: fixed; 
+	left: 0; 
+	right: 0; 
+	top: 0; 
+	bottom: 0;	
+}
+
+
+/*JQUERY*/
+
+#title-new{
+	transition: all .5s ease-in-out;
+}
+
+#title-new:hover{
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Safari */
+    transform: scale(0.5,0.5); /* Standard syntax */
+}
+
+#title-design{
+	transition: all .5s ease-in-out;
+}
+
+#title-design:hover{
+    -ms-transform: scale(2,3); /* IE 9 */
+    -webkit-transform: scale(2,3); /* Safari */
+    transform: scale(2,3); /* Standard syntax */
+}
+
+#title-life{
+	transition: all .5s ease-in-out;
+}
+
+#title-life:hover{
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Safari */
+    transform: scale(0.5,0.5); /* Standard syntax */
+}
+
+#title-description{
+	transition: all .5s ease-in-out;
+}
+#title-description:hover{
+    transform:rotateY(180deg);
+}
+
+#scroll-drow{
+	transition: all .5s ease-in-out;
+}
+
+#scroll-drow:hover{
+	transform:rotateY(180deg);
 }
