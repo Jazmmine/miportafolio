@@ -109,14 +109,14 @@ $(document).ready(function(){
 
 	$("#information").click(function(e){
 		e.preventDefault();
-		$("#ctn").addClass("hidden");
-		$("#infos").removeClass("hidden");
+		$("#ctn").slideUp();
+		$("#infos").show("slow");
 	});
 
 	$("#close").click(function(e){
 		e.preventDefault();
-		$("#infos").addClass("hidden");
-		$("#ctn").removeClass("hidden");
+		$("#infos").slideUp();
+		$("#ctn").show("slow");
 	});
 
 	/*navbar*/
@@ -152,7 +152,30 @@ $(document).ready(function(){
 		$("#contact-me").show("slow");		
 	});
 
-	
+	/*"scroll"*/
+	$("#scroll-drow-a").click(function(e){
+		e.preventDefault();
+		$("#ctn").slideUp();
+		$("#particles-js").slideUp();
+		$("#contact-me").slideUp();	
+		$("#portfiles").show("slow");
+	});
+
+	$("#scroll-drow-b").click(function(e){
+		e.preventDefault();
+		$("#ctn").slideUp();
+		$("#portfiles").slideUp();
+		$("#contact-me").slideUp();	
+		$("#particles-js").show("slow");	
+	});
+
+	$("#scroll-drow-c").click(function(e){
+		e.preventDefault();
+		$("#ctn").slideUp();	
+		$("#portfiles").slideUp();	
+		$("#particles-js").slideUp();	
+		$("#contact-me").show("slow");
+	});
 
 	/*btn footer*/
 	$("#btn-linkendin").click(function mostrarLinken(){
