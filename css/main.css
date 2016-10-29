@@ -631,3 +631,16 @@ li,ol,ul{
 #scroll-drow3:hover{
 	transform:rotateY(180deg);
 }
+
+.container-cnt{
+	position: relative;
+    top: 150px;
+}
+
+h2{
+	font-size: 6.9rem !important;
+}
+
+p{
+	font-size: 2rem !important;
+}
