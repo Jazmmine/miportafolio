@@ -201,7 +201,56 @@ li,ol,ul{
 
 /*slide-portfile*/
 
-#slide-portfile{
+/*#slide-portfile{
 	position: absolute;
 	z-index: 3;
+}*/
+
+/*info*/
+.js-info-left{
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+	height: 100vh;
+	width: 50vw;
+    top: 0;
+    left: -700px; 
+}
+
+.js-info-left-click{
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+	height: 100vh;
+	width: 50vw;
+    top: 0;
+    left: 0; /*0*/
+	-webkit-transition: left 2s;
+	transition: left 2s;
+}
+
+.js-info-right{
+    background-color: black;
+    position: absolute;
+    z-index: 999;
+	height: 100vh;
+	width: 0;  
+    top: 0;	
+    right: 900; 
+    overflow: hidden; 
+}
+
+.js-info-right-click{
+    background-color: black;
+    position: absolute;
+    z-index: 999;
+	height: 100vh;
+	width: 50vw;  /*50vw*/
+    top: 0;	
+    right: 0; /*0*/
+    overflow: hidden;
+	-webkit-transition: right  2s;
+	transition: right  2s;
+	-webkit-transition: width  2s;
+	transition: width  2s;
 }

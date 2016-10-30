@@ -109,14 +109,20 @@ $(document).ready(function(){
 
 	$("#information").click(function(e){
 		e.preventDefault();
-		$("#ctn").slideUp();
-		$("#infos").show("slow");
+	//	$("#main").slideUp();
+		$("#js-info-left").removeClass("js-info-left");
+		$("#js-info-left").addClass("js-info-left-click");
+	//	$("#js-info-left").show("slow");
+		$("#js-info-right").removeClass("js-info-right");
+		$("#js-info-right").addClass("js-info-right-click");
+	//	$("#js-info-right").show("slow");
 	});
 
 	$("#close").click(function(e){
 		e.preventDefault();
-		$("#infos").slideUp();
-		$("#ctn").show("slow");
+		$("#js-info-left").slideUp();
+		$("#js-info-right").slideUp();
+		$("#slide-home").show("slow");
 	});
 
 	/*navbar*/
