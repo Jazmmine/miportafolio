@@ -180,7 +180,78 @@ $(document).ready(function(){
 		$("#slide-home").slideUp();
 		$("#slide-portfile").slideUp();
 		$("#slide-contact").slideUp();	
-		$("#slide-skills").show("slow");	
+		$("#slide-skills").show("slow");
+	    $("#html-circle").circliful({
+	        animation: 1,
+	        animationStep: 6,
+	        foregroundBorderWidth: 5,
+	        backgroundBorderWidth: 1,
+	        percent: 85,
+	        iconColor: '#3498DB',
+	        text: 'HTML5',
+	        iconSize: '50',
+	        iconPosition: 'middle'
+	     });
+
+	    $("#css3-circle").circliful({
+	        animation: 1,
+	        animationStep: 6,
+	        foregroundBorderWidth: 5,
+	        backgroundBorderWidth: 1,
+	        percent: 78,
+	        iconColor: '#3498DB',
+	        text: 'CSS3',
+	        iconSize: '50',
+	        iconPosition: 'middle'
+	     });	
+
+	    $("#js-circle").circliful({
+	        animation: 1,
+	        animationStep: 6,
+	        foregroundBorderWidth: 5,
+	        backgroundBorderWidth: 1,
+	        percent: 50,
+	        iconColor: '#3498DB',
+	        text: 'Javascript',
+	        iconSize: '50',
+	        iconPosition: 'middle'
+	     });	
+
+	    $("#jq-circle").circliful({
+	        animation: 1,
+	        animationStep: 6,
+	        foregroundBorderWidth: 5,
+	        backgroundBorderWidth: 1,
+	        percent: 40,
+	        iconColor: '#3498DB',
+	        text: 'jQuery',
+	        iconSize: '50',
+	        iconPosition: 'middle'
+	     });	
+
+	    $("#subtext-circle").circliful({
+	        animation: 1,
+	        animationStep: 6,
+	        foregroundBorderWidth: 5,
+	        backgroundBorderWidth: 1,
+	        percent: 50,
+	        iconColor: '#3498DB',
+	        text: 'Sublime Text3',
+	        iconSize: '75',
+	        iconPosition: 'middle'
+	     });	
+
+	    $("#git-circle").circliful({
+	        animation: 1,
+	        animationStep: 6,
+	        foregroundBorderWidth: 5,
+	        backgroundBorderWidth: 1,
+	        percent: 40,
+	        iconColor: '#3498DB',
+	        text: 'GitHub',
+	        iconSize: '65',
+	        iconPosition: 'middle'
+	     });	     	     	     		
 	});
 
 	$("#scroll-drow-c").click(function(e){
@@ -209,6 +280,7 @@ $(document).ready(function(){
 		$(".page").addClass("hidden");
 		$("#slide-portfile").show("slow");
 	});
+
 
 
 
@@ -262,8 +334,33 @@ $(document).ready(function(){
 	        text: 'jQuery',
 	        iconSize: '50',
 	        iconPosition: 'middle'
-	     });		     	     	     		
+	     });	
+
+	    $("#subtext-circle").circliful({
+	        animation: 1,
+	        animationStep: 6,
+	        foregroundBorderWidth: 5,
+	        backgroundBorderWidth: 1,
+	        percent: 50,
+	        iconColor: '#3498DB',
+	        text: 'Sublime Text3',
+	        iconSize: '75',
+	        iconPosition: 'middle'
+	     });	
+
+	    $("#git-circle").circliful({
+	        animation: 1,
+	        animationStep: 6,
+	        foregroundBorderWidth: 5,
+	        backgroundBorderWidth: 1,
+	        percent: 40,
+	        iconColor: '#3498DB',
+	        text: 'GitHub',
+	        iconSize: '65',
+	        iconPosition: 'middle'
+	     });	     	     	     		
 	});
+
 
 
 

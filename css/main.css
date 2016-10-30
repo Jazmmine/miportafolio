@@ -290,4 +290,8 @@ li,ol,ul{
 	height: 100vh;
   	overflow: overlay;	
 }
+.row-herramientas{
+	position: relative;
+    left: 76px;
+}
 
