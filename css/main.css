@@ -158,9 +158,14 @@ li,ol,ul{
 }
 
 #title-new:hover{
-	-ms-transform: scale(0.5,0.5); /* IE 9 */
-    -webkit-transform: scale(0.5,0.5); /* Safari */
-    transform: scale(0.5,0.5); /* Standard syntax */
+    -ms-transform: scale(2,3); /* IE 9 */
+    -webkit-transform: scale(2,3); /* Safari */
+    transform: scale(2,3); /* Standard syntax */	
+}
+#title-new.ishover{
+    -ms-transform: scale(2,3); /* IE 9 */
+    -webkit-transform: scale(2,3); /* Safari */
+    transform: scale(2,3); /* Standard syntax */		
 }
 
 #title-design{
@@ -168,9 +173,14 @@ li,ol,ul{
 }
 
 #title-design:hover{
-    -ms-transform: scale(2,3); /* IE 9 */
-    -webkit-transform: scale(2,3); /* Safari */
-    transform: scale(2,3); /* Standard syntax */
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Safari */
+    transform: scale(0.5,0.5); /* Standard syntax */
+}
+#title-design.ishover{
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Safari */
+    transform: scale(0.5,0.5); /* Standard syntax */
 }
 
 #title-life{
@@ -178,9 +188,15 @@ li,ol,ul{
 }
 
 #title-life:hover{
-	-ms-transform: scale(0.5,0.5); /* IE 9 */
-    -webkit-transform: scale(0.5,0.5); /* Safari */
-    transform: scale(0.5,0.5); /* Standard syntax */
+    -ms-transform: scale(2,3); /* IE 9 */
+    -webkit-transform: scale(2,3); /* Safari */
+    transform: scale(2,3); /* Standard syntax */	
+}
+
+#title-life.ishover{
+    -ms-transform: scale(2,3); /* IE 9 */
+    -webkit-transform: scale(2,3); /* Safari */
+    transform: scale(2,3); /* Standard syntax */	
 }
 
 #title-description{

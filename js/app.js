@@ -382,7 +382,40 @@ $(document).ready(function(){
 
 
 
-
+animarTitulo();
 
 
 });
+
+function animarTitulo(){
+	var titulo1 = $("#title-new");
+	var titulo2 = $("#title-design");
+	var titulo3 = $("#title-life");
+
+	if (titulo1.hasClass("ishover")) {
+		titulo1.removeClass("ishover");
+	}else{
+		titulo1.addClass("ishover");
+		setTimeout(function(){
+			titulo1.removeClass("ishover");
+		}, 1000);
+	}
+
+	if (titulo2.hasClass("ishover")) {
+		titulo2.removeClass("ishover");
+	}else{
+		titulo2.addClass("ishover");
+		setTimeout(function(){
+			titulo2.removeClass("ishover");
+		}, 1000);
+	}
+
+	if (titulo3.hasClass("ishover")) {
+		titulo3.removeClass("ishover");
+	}else{
+		titulo3.addClass("ishover");
+		setTimeout(function(){
+			titulo3.removeClass("ishover");
+		}, 1000);
+	}
+}
