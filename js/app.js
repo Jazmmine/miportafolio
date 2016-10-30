@@ -106,6 +106,12 @@ $(document).ready(function(){
 	}
 
 	});
+/*	if ($("#title-design").hasClass("title-design")) {
+		$("#title-design").removeClass("title-design");		
+	}else{
+		$("#title-design").addClass("title-design");
+	}
+*/
 
 	$("#information").click(function(e){
 		e.preventDefault();
