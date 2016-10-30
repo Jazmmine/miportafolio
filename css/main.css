@@ -266,6 +266,13 @@ li,ol,ul{
 	height: auto;
     width: 100%;
 }
+#scroll-drow2{
+	transition: all .5s ease-in-out;	
+}
+#scroll-drow2:hover{
+	transform:rotateY(180deg);	
+}
+
 /*item portfile*/
 .page{
     position: absolute;
@@ -294,4 +301,29 @@ li,ol,ul{
 	position: relative;
     left: 76px;
 }
+#scroll-drow3{
+	transition: all .5s ease-in-out;
+}
+#scroll-drow3:hover{
+	transform:rotateY(180deg);	
+}
 
+/*slide-contact*/
+#slide-contact{
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	background-color: black;
+	height: 100vh;
+  	overflow: overlay;	
+}
+.wrapper{
+    height: 79%;
+    border: 30px solid #fff;
+    background: #dadada;
+    font-size: 1.313rem;
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+    border-radius: 10px;
+}
