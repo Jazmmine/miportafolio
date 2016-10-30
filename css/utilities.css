@@ -2,6 +2,10 @@
 	color: white;
 }
 
+.padding-10{
+	padding-top: 10%;
+}
+
 /* Image Pulse */
 @-webkit-keyframes hvr-img-pulse {
   25% {

@@ -2,7 +2,7 @@
 */
 $(document).ready(function(){
 
-	$(".main").Geometryangle({
+	$("#slide-home").Geometryangle({
 
 	// handle transparent colors
 	mesh:{
@@ -138,16 +138,16 @@ $(document).ready(function(){
 		e.preventDefault();
 		$("#slide-portfile").slideUp();	
 		$("#slide-skills").slideUp();
-		$("#slide-footer").slideUp();			
+		$("#slide-contact").slideUp();			
 		$("#slide-home").show("slow");	
 	});
 
 	$("#cnt-portfolio").click(function(e){
 		e.preventDefault();
-		$("#ctn").slideUp();
-		$("#particles-js").slideUp();
-		$("#contact-me").slideUp();	
-		$("#portfiles").show("slow");	
+		$("#slide-home").slideUp();
+		$("#slide-skills").slideUp();
+		$("#slide-contact").slideUp();	
+		$("#slide-portfile").show("slow");	
 	});
 
 	$("#cnt-skills").click(function(e){

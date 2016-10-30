@@ -16,6 +16,7 @@ li,ol,ul{
     height: 100vh;
 } 
 
+
 .no-scroll{
 	overflow: hidden;
 }
@@ -33,7 +34,7 @@ li,ol,ul{
 
 .btn-info{
 	padding-bottom: 0.8rem;
-	background-color: rgba(255,255,255,0.1);
+	background-color: rgba(255,255,255,0.1) !important;
 }
 
 .hvr-sweep-to-right:before {
@@ -143,8 +144,8 @@ li,ol,ul{
 /*slide-home*/
 #slide-home{
 	position: absolute;
-	z-index: 1;
-	top: 10rem;
+	z-index: 5;
+	top: 0;
 }
 .title-main{
 	font-size: 6.5rem;
@@ -251,4 +252,37 @@ li,ol,ul{
 }
 
 /*slide-portfile*/
+#slide-portfile{
+	position: absolute;
+	top: 0;
+	z-index: 3;
+	background-image: url("../img/fondo_principal.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+  	overflow: overlay;
+}
+.slide-push-portfile{
+	height: auto;
+    width: 100%;
+}
+/*item portfile*/
+.page{
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    background-color: black;
+    overflow-y: scroll;
+}
+.portfile-html{
+	position: absolute;
+	z-index: 8;
+	top: 0;
+	background-color: black;
+}
+.fss-output{
+	background-color: rgb(229, 59, 47) !important;
+}
+
 
