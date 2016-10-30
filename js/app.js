@@ -2,7 +2,7 @@
 */
 $(document).ready(function(){
 
-	$("#slide-home").Geometryangle({
+	$(".geo").Geometryangle({
 
 	// handle transparent colors
 	mesh:{
@@ -152,72 +152,65 @@ $(document).ready(function(){
 
 	$("#cnt-skills").click(function(e){
 		e.preventDefault();
-		$("#ctn").slideUp();
-		$("#portfiles").slideUp();
-		$("#contact-me").slideUp();	
-		$("#particles-js").show("slow");			
+		$("#slide-home").slideUp();
+		$("#slide-portfile").slideUp();
+		$("#slide-contact").slideUp();	
+		$("#slide-skills").show("slow");			
 	});
 
 	$("#cnt-contact-me").click(function(e){
 		e.preventDefault();
-		$("#ctn").slideUp();	
-		$("#portfiles").slideUp();	
-		$("#particles-js").slideUp();	
-		$("#contact-me").show("slow");		
+		$("#slide-home").slideUp();	
+		$("#slide-portfile").slideUp();	
+		$("#slide-skills").slideUp();	
+		$("#slide-contact").show("slow");		
 	});
 
 	/*"scroll"*/
 	$("#scroll-drow-a").click(function(e){
 		e.preventDefault();
-		$("#ctn").slideUp();
-		$("#particles-js").slideUp();
-		$("#contact-me").slideUp();	
-		$("#portfiles").show("slow");
+		$("#slide-home").slideUp();
+		$("#slide-skills").slideUp();
+		$("#slide-contact").slideUp();	
+		$("#slide-portfile").show("slow");
 	});
 
 	$("#scroll-drow-b").click(function(e){
 		e.preventDefault();
-		$("#ctn").slideUp();
-		$("#portfiles").slideUp();
-		$("#contact-me").slideUp();	
-		$("#particles-js").show("slow");	
+		$("#slide-home").slideUp();
+		$("#slide-portfile").slideUp();
+		$("#slide-contact").slideUp();	
+		$("#slide-skills").show("slow");	
 	});
 
 	$("#scroll-drow-c").click(function(e){
 		e.preventDefault();
-		$("#ctn").slideUp();	
-		$("#portfiles").slideUp();	
-		$("#particles-js").slideUp();	
-		$("#contact-me").show("slow");
+		$("#slide-contact").slideUp();	
+		$("#slide-portfile").slideUp();	
+		$("#slide-skills").slideUp();	
+		$("#slide-contact").show("slow");
 	});
 
-	/*btn footer*/
-/*	$("#btn-linkendin").click(function mostrarLinken(){
-		var cuadroMensaje = $("#mensaje-linkendin");
-			cuadroMensaje.removeClass("ocultar");
-			cuadroMensaje.addClass("mostrar");
+	/*btn slideportfile*/
+	$("#btn-html-css").click(function(e){
+		e.preventDefault();
+		$(".page").removeClass("hidden");
+		$("#portfile-html").show("slow");
+		
 	});
 
-	$("#btn-linkendin").focusout(function ocultarLinken(){
-		var cuadroMensaje = $("#mensaje-linkendin");
-			cuadroMensaje.removeClass("mostrar");
-			cuadroMensaje.addClass("ocultar");
+
+
+
+
+
+	/*btn atrasportfile*/
+	$("#btn-behind1").click(function(e){
+		$(".page").addClass("hidden");
+		$("#slide-portfile").show("slow");
 	});
 
-	$("#btn-git").click(function mostrarGit(){
-		var cuadroMensaje = $("#mensaje-git");
-			cuadroMensaje.removeClass("ocultar");
-			cuadroMensaje.addClass("mostrar");
-	});
-	$("#btn-gmail").click(function mostrarGmail(){
-		var cuadroMensaje = $("#mensaje-gmail");
-			cuadroMensaje.removeClass("ocultar");
-			cuadroMensaje.addClass("mostrar");
-	});
-		$("#btn-phone").click(function mostrarPhone(){
-		var cuadroMensaje = $("#mensaje-phone");
-			cuadroMensaje.removeClass("ocultar");
-			cuadroMensaje.addClass("mostrar");
-	});*/
+
+
 
 });

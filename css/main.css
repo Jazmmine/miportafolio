@@ -16,7 +16,6 @@ li,ol,ul{
     height: 100vh;
 } 
 
-
 .no-scroll{
 	overflow: hidden;
 }
@@ -277,12 +276,10 @@ li,ol,ul{
 }
 .portfile-html{
 	position: absolute;
-	z-index: 8;
+	z-index: 80;
 	top: 0;
 	background-color: black;
 }
-.fss-output{
-	background-color: rgb(229, 59, 47) !important;
-}
+
 
 

@@ -6,6 +6,9 @@
 	padding-top: 10%;
 }
 
+.hidden{
+	display: none;
+}
 /* Image Pulse */
 @-webkit-keyframes hvr-img-pulse {
   25% {
