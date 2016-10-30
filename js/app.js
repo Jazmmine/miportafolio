@@ -181,6 +181,8 @@ $(document).ready(function(){
 		$("#slide-portfile").slideUp();
 		$("#slide-contact").slideUp();	
 		$("#slide-skills").show("slow");
+
+		$("#html-circle").empty();
 	    $("#html-circle").circliful({
 	        animation: 1,
 	        animationStep: 6,
@@ -193,6 +195,7 @@ $(document).ready(function(){
 	        iconPosition: 'middle'
 	     });
 
+	    $("#css3-circle").empty();
 	    $("#css3-circle").circliful({
 	        animation: 1,
 	        animationStep: 6,
@@ -205,6 +208,7 @@ $(document).ready(function(){
 	        iconPosition: 'middle'
 	     });	
 
+	    $("#js-circle").empty();
 	    $("#js-circle").circliful({
 	        animation: 1,
 	        animationStep: 6,
@@ -217,6 +221,7 @@ $(document).ready(function(){
 	        iconPosition: 'middle'
 	     });	
 
+	    $("#jq-circle").empty();
 	    $("#jq-circle").circliful({
 	        animation: 1,
 	        animationStep: 6,
@@ -229,6 +234,7 @@ $(document).ready(function(){
 	        iconPosition: 'middle'
 	     });	
 
+	    $("#subtext-circle").empty();
 	    $("#subtext-circle").circliful({
 	        animation: 1,
 	        animationStep: 6,
@@ -241,6 +247,7 @@ $(document).ready(function(){
 	        iconPosition: 'middle'
 	     });	
 
+	    $("#git-circle").empty();
 	    $("#git-circle").circliful({
 	        animation: 1,
 	        animationStep: 6,
@@ -288,6 +295,7 @@ $(document).ready(function(){
 
 	/*skills*/
 	$("#cnt-skills").click(function(){
+		$("#html-circle").empty();
 	    $("#html-circle").circliful({
 	        animation: 1,
 	        animationStep: 6,
@@ -300,6 +308,7 @@ $(document).ready(function(){
 	        iconPosition: 'middle'
 	     });
 
+	    $("#css3-circle").empty();
 	    $("#css3-circle").circliful({
 	        animation: 1,
 	        animationStep: 6,
@@ -312,6 +321,7 @@ $(document).ready(function(){
 	        iconPosition: 'middle'
 	     });	
 
+	    $("#js-circle").empty();
 	    $("#js-circle").circliful({
 	        animation: 1,
 	        animationStep: 6,
@@ -324,6 +334,7 @@ $(document).ready(function(){
 	        iconPosition: 'middle'
 	     });	
 
+	    $("#jq-circle").empty();
 	    $("#jq-circle").circliful({
 	        animation: 1,
 	        animationStep: 6,
@@ -336,6 +347,7 @@ $(document).ready(function(){
 	        iconPosition: 'middle'
 	     });	
 
+	    $("#subtext-circle").empty();
 	    $("#subtext-circle").circliful({
 	        animation: 1,
 	        animationStep: 6,
@@ -348,6 +360,7 @@ $(document).ready(function(){
 	        iconPosition: 'middle'
 	     });	
 
+	    $("#git-circle").empty();
 	    $("#git-circle").circliful({
 	        animation: 1,
 	        animationStep: 6,
