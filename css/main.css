@@ -72,8 +72,9 @@ li,ol,ul{
 	width: 250px;
 	height: 100px;
 	position: absolute;
-	left: 0;
-	opacity: 0;
+	right: -232px;
+	-webkit-transition: right 1s;
+	transition: right 1s;
 }
 
 .show:hover{
@@ -82,22 +83,25 @@ li,ol,ul{
 	height: 100px;
 	position: absolute;
 	right: 0;
-	opacity: 1;
 }
 
-#border-left-color1{
-	border-left: 18px solid #7af0dc;	
+#border-left-color1, #border-left-color2, #border-left-color3, #border-left-color4{
+	border-left: 18px solid #434343;	
 }
 
-#border-left-color2{
+#border-left-color1.show:hover{
+	border-left: 18px solid #7af0dc;
+}
+
+#border-left-color2.show:hover{
 	border-left: 18px solid #7cc2fd;		
 }
 
-#border-left-color3{
+#border-left-color3.show:hover{
 	border-left: 18px solid #fcb77b;	
 }
 
-#border-left-color4{
+#border-left-color4.show:hover{
 	border-left: 18px solid #fb959e;	
 }
 
@@ -106,45 +110,20 @@ li,ol,ul{
 	font-size: 24px;
 }
 
-.celda1{
-	background-color: #434343;
-	color: #7cc2fd;
-}
 .celda1 a{
 	color: #7af0dc;	
 }
-.celda2{
-	background-color: #434343;
-	color: #7af0dc;
-}
+
 .celda2 a{
 	color: #7cc2fd;
 }
-.celda3{
-	background-color: #434343;
-	color: #fcb77b;
-}
+
 .celda3 a{
 	color: #fcb77b;
 }
-.celda4{
-	background-color: #434343;
-	color: #fb959e;
-}
+
 .celda4 a{
 	color: #fb959e;
-}
-.celda1:hover div{
-	opacity: 1;
-}
-.celda2:hover div{
-	opacity: 1;
-}
-.celda3:hover div{
-	opacity: 1;
-}
-.celda4:hover div{
-	opacity: 1;
 }
 
 .txt-gif{
