@@ -130,7 +130,7 @@ $(document).ready(function(){
 		//$("#js-info-right").slideUp();
 		$("#js-info-right").removeClass("js-info-right-click");
 		$("#js-info-right").addClass("js-info-right");	
-		$("#slide-home").show("slow");
+		//$("#slide-home").show("slow");
 	});
 
 	/*navbar*/
@@ -209,6 +209,62 @@ $(document).ready(function(){
 		$(".page").addClass("hidden");
 		$("#slide-portfile").show("slow");
 	});
+
+
+
+
+
+	/*skills*/
+	$("#cnt-skills").click(function(){
+	    $("#html-circle").circliful({
+	        animation: 1,
+	        animationStep: 6,
+	        foregroundBorderWidth: 5,
+	        backgroundBorderWidth: 1,
+	        percent: 85,
+	        iconColor: '#3498DB',
+	        text: 'HTML5',
+	        iconSize: '50',
+	        iconPosition: 'middle'
+	     });
+
+	    $("#css3-circle").circliful({
+	        animation: 1,
+	        animationStep: 6,
+	        foregroundBorderWidth: 5,
+	        backgroundBorderWidth: 1,
+	        percent: 78,
+	        iconColor: '#3498DB',
+	        text: 'CSS3',
+	        iconSize: '50',
+	        iconPosition: 'middle'
+	     });	
+
+	    $("#js-circle").circliful({
+	        animation: 1,
+	        animationStep: 6,
+	        foregroundBorderWidth: 5,
+	        backgroundBorderWidth: 1,
+	        percent: 50,
+	        iconColor: '#3498DB',
+	        text: 'Javascript',
+	        iconSize: '50',
+	        iconPosition: 'middle'
+	     });	
+
+	    $("#jq-circle").circliful({
+	        animation: 1,
+	        animationStep: 6,
+	        foregroundBorderWidth: 5,
+	        backgroundBorderWidth: 1,
+	        percent: 40,
+	        iconColor: '#3498DB',
+	        text: 'jQuery',
+	        iconSize: '50',
+	        iconPosition: 'middle'
+	     });		     	     	     		
+	});
+
 
 
 
