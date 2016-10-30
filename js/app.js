@@ -2,7 +2,7 @@
 */
 $(document).ready(function(){
 
-	$(".js-load-container").Geometryangle({
+	$(".main").Geometryangle({
 
 	// handle transparent colors
 	mesh:{
