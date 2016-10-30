@@ -12,8 +12,8 @@ li,ol,ul{
 }
 
 .loader-hidden, .mobile, .main, .infos, .page{
-	width: 100vw !important;
-    height: 100vh !important;
+	width: 100vw;
+    height: 100vh;
 } 
 
 .no-scroll{
@@ -27,13 +27,13 @@ li,ol,ul{
 	width: 100%;
 }
 .nav-fixed > nav > .nav-wrapper > a{
-	margin-left: 15px !important;
+	margin-left: 15px;
 	font-size: 3rem;
 }
 
 .btn-info{
 	padding-bottom: 0.8rem;
-	background-color: rgba(255,255,255,0.1) !important;
+	background-color: rgba(255,255,255,0.1);
 }
 
 .hvr-sweep-to-right:before {
@@ -199,22 +199,17 @@ li,ol,ul{
 	transform:rotateY(180deg);
 }
 
-/*slide-portfile*/
-
-/*#slide-portfile{
-	position: absolute;
-	z-index: 3;
-}*/
-
 /*info*/
 .js-info-left{
     background-color: white;
     position: absolute;
     z-index: 999;
 	height: 100vh;
-	width: 50vw;
+	width: 0vw;
     top: 0;
     left: -700px; 
+    -webkit-transition: left 2s;
+	transition: left 2s;
 }
 
 .js-info-left-click{
@@ -233,11 +228,13 @@ li,ol,ul{
     background-color: black;
     position: absolute;
     z-index: 999;
-	height: 100vh;
+	height: 0;
 	width: 0;  
     top: 0;	
-    right: 900; 
-    overflow: hidden; 
+    right: 0;
+    overflow: hidden;
+	-webkit-transition: width  2s;
+	transition: width  2s; 
 }
 
 .js-info-right-click{
@@ -247,10 +244,11 @@ li,ol,ul{
 	height: 100vh;
 	width: 50vw;  /*50vw*/
     top: 0;	
-    right: 0; /*0*/
+    right: 0;
     overflow: hidden;
-	-webkit-transition: right  2s;
-	transition: right  2s;
 	-webkit-transition: width  2s;
 	transition: width  2s;
 }
+
+/*slide-portfile*/
+

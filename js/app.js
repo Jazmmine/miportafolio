@@ -110,28 +110,36 @@ $(document).ready(function(){
 	$("#information").click(function(e){
 		e.preventDefault();
 	//	$("#main").slideUp();
+	if ($("#js-info-left").hasClass("js-info-left")) {
 		$("#js-info-left").removeClass("js-info-left");
-		$("#js-info-left").addClass("js-info-left-click");
-	//	$("#js-info-left").show("slow");
+		$("#js-info-left").addClass("js-info-left-click");		
+	}
+
+	if ($("#js-info-right").hasClass("js-info-right")) {
 		$("#js-info-right").removeClass("js-info-right");
-		$("#js-info-right").addClass("js-info-right-click");
-	//	$("#js-info-right").show("slow");
+		$("#js-info-right").addClass("js-info-right-click");		
+	}
+
 	});
 
 	$("#close").click(function(e){
 		e.preventDefault();
-		$("#js-info-left").slideUp();
-		$("#js-info-right").slideUp();
+		//$("#js-info-left").slideUp();
+		$("#js-info-left").removeClass("js-info-left-click");
+		$("#js-info-left").addClass("js-info-left");	
+		//$("#js-info-right").slideUp();
+		$("#js-info-right").removeClass("js-info-right-click");
+		$("#js-info-right").addClass("js-info-right");	
 		$("#slide-home").show("slow");
 	});
 
 	/*navbar*/
 	$("#cnt-new-design-life").click(function(e){
 		e.preventDefault();
-		$("#particles-js").slideUp();	
-		$("#portfiles").slideUp();
-		$("#contact-me").slideUp();			
-		$("#ctn").show("slow");	
+		$("#slide-portfile").slideUp();	
+		$("#slide-skills").slideUp();
+		$("#slide-footer").slideUp();			
+		$("#slide-home").show("slow");	
 	});
 
 	$("#cnt-portfolio").click(function(e){
