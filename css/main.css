@@ -1,3 +1,13 @@
+@font-face{
+  font-family: "Anurati";
+  src: url("Anurati.eot"); /* IE9 Compat Modes */
+  src: url("webfont.eot?#iefix") format("embedded-opentype"), /* IE-IE */
+       url("webfont.woff2") format("woff2"), /* Super Modern Browsers */
+       url("webfont.woff") format("woff"), /* Pretty Modern Browsers */
+       url("webfont.ttf")  format("truetype"), /* Safari, Android, iOS */
+       url("webfont.svg#svgFontName") format("svg"); /* Legacy iOS */	
+}
+
 *{
 	margin: 0;
 	padding: 0;
@@ -146,26 +156,28 @@ li,ol,ul{
 	top: 0;
 }
 .title-main{
+	font-family: "Anurati";
 	font-size: 6.5rem;
 	font-weight: bold;
 }
 .title-center{
-	color: #4BE88A;
+	color: #00A670;
 }
 	/*animacion*/
+/*
 #title-new{
 	transition: all .5s ease-in-out;
 }
 
 #title-new:hover{
-    -ms-transform: scale(2,3); /* IE 9 */
-    -webkit-transform: scale(2,3); /* Safari */
-    transform: scale(2,3); /* Standard syntax */	
+    -ms-transform: scale(2,3); 
+    -webkit-transform: scale(2,3); 
+    transform: scale(2,3); 	
 }
 #title-new.ishover{
-    -ms-transform: scale(2,3); /* IE 9 */
-    -webkit-transform: scale(2,3); /* Safari */
-    transform: scale(2,3); /* Standard syntax */		
+    -ms-transform: scale(2,3);
+    -webkit-transform: scale(2,3); 
+    transform: scale(2,3);	
 }
 
 #title-design{
@@ -173,37 +185,51 @@ li,ol,ul{
 }
 
 #title-design:hover{
-	-ms-transform: scale(0.5,0.5); /* IE 9 */
-    -webkit-transform: scale(0.5,0.5); /* Safari */
-    transform: scale(0.5,0.5); /* Standard syntax */
+	-ms-transform: scale(0.5,0.5);
+    -webkit-transform: scale(0.5,0.5); 
+    transform: scale(0.5,0.5); 
 }
 #title-design.ishover{
-	-ms-transform: scale(0.5,0.5); /* IE 9 */
-    -webkit-transform: scale(0.5,0.5); /* Safari */
-    transform: scale(0.5,0.5); /* Standard syntax */
-}
+	-ms-transform: scale(0.5,0.5); 
+    -webkit-transform: scale(0.5,0.5); 
+    transform: scale(0.5,0.5); 
+}*/
 
-#title-life{
-	transition: all .5s ease-in-out;
-}
 
-#title-life:hover{
-    -ms-transform: scale(2,3); /* IE 9 */
-    -webkit-transform: scale(2,3); /* Safari */
-    transform: scale(2,3); /* Standard syntax */	
-}
-
-#title-life.ishover{
-    -ms-transform: scale(2,3); /* IE 9 */
-    -webkit-transform: scale(2,3); /* Safari */
-    transform: scale(2,3); /* Standard syntax */	
-}
-
-#title-description{
+/*#title-description{
 	transition: all .5s ease-in-out;
 }
 #title-description:hover{
     transform:rotateY(180deg);
+}*/
+/*
+#title-description{
+	position: absolute;
+	top: 290px;
+	left: -700px;
+
+}*/
+/*#title-description.ishover{
+		-webkit-transition: all 3s ease-in;
+    -moz-transition: all 3s ease-in;
+    -o-transition: all 3s ease-in;
+    -webkit-transform: translate(0px,-935px);
+    -moz-transform: translate(0px,-935px);
+    -o-transform: translate(0px,-935px);
+    -ms-transform: translate(0px,-935px);
+    transform: translate(0px,-935px);
+}*/
+
+.container-scroll-drow{
+	position: relative;
+	top: 260px;
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 90%;
+}
+
+.ico-scroll-drow{
+	margin-top: 20px;
 }
 
 #scroll-drow1{
