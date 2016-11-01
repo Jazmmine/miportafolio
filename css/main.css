@@ -1,11 +1,8 @@
 @font-face{
   font-family: "abyssopelagic";
-  src: url("abyssopelagic.eot"); /* IE9 Compat Modes */
-  src: url("webfont.eot?#iefix") format("embedded-opentype"), /* IE-IE */
-       url("webfont.woff2") format("woff2"), /* Super Modern Browsers */
-       url("webfont.woff") format("woff"), /* Pretty Modern Browsers */
-       url("webfont.ttf")  format("truetype"), /* Safari, Android, iOS */
-       url("webfont.svg#svgFontName") format("svg"); /* Legacy iOS */	
+  src: url("abyssopelagic.otf"); /* IE9 Compat Modes */
+  src: url("abyssopelagic.otf?#iefix") format("embedded-opentype"), /* IE-IE */
+       url("abyssopelagic.otf") format("opentype"), /* Super Modern Browsers */
 }
 
 *{
@@ -15,8 +12,6 @@
 }
 body{
 	line-height: 1 ;
-
-
 }
 
 li,ol,ul{
@@ -49,6 +44,18 @@ li,ol,ul{
 	background-color: rgba(255,255,255,0.1) !important;
 }
 
+.perfil{
+	background-image: url("../img/yo.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+  	overflow: hidden;	
+}
+
+.description{
+	line-height: 2 !important;
+}
 .hvr-sweep-to-right:before {
   background: #93AEB0;
 }

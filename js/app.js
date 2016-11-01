@@ -299,6 +299,24 @@ $(document).ready(function(){
 
 
 
+/*btn-scroll-dow*/
+
+    $("#first-scroll").click(function(){
+        $("#slide-home").slideUp(800);
+		$("#slide-portfile").show();
+    });	 
+	
+    $("#second-scroll").click(function(){
+        $("#slide-portfile").slideUp(8000);
+		$("#slide-skills").show();
+    });	 
+
+    $("#thirt-scroll").click(function(){
+        $("#slide-skills").slideUp(8000);
+		$("#slide-contact").show();
+    });	 
+
+
 	/*skills*/
 	$("#cnt-skills").click(function(){
 		$("#html-circle").empty();
@@ -383,19 +401,12 @@ $(document).ready(function(){
 animarParrafo();
 animarNombre();
 
-
-/*animarTitulo();*/
-
 });
 
 function animarNombre(){
 	var name = $("#title-name");
-	var scroll = $("#container-icoAndtext-scroll-drow"); 
 	if(name.is(":hidden")){
 		name.slideDown(3000);
-	}
-	if(scroll.is(":hidden")){
-		scroll.slideDown(3000);
 	}
 }
 function animarParrafo(){
@@ -409,36 +420,9 @@ function animarParrafo(){
 }
 
 
-/*
-function animarTitulo(){
-	var titulo1 = $("#title-new");
-	var titulo2 = $("#title-design");
-	var divParrafo = $("#container-title-description");
-	var parrafo = $("#title-description");
 
-	if (titulo1.hasClass("ishover")) {
-		titulo1.removeClass("ishover");
-	}else{
-		titulo1.addClass("ishover");
-		setTimeout(function(){
-			titulo1.removeClass("ishover");
-		}, 1000);
-	}
-
-	if (titulo2.hasClass("ishover")) {
-		titulo2.removeClass("ishover");
-	}else{
-		titulo2.addClass("ishover");
-		setTimeout(function(){
-			titulo2.removeClass("ishover");
-		}, 1000);
-	}
-
-	setTimeout(function(){
-		parrafo.animate({left: '400px'}, "slow");
-	}, 100);
-    
 	
-	
-}
-   	*/ 
+
+
+
+
