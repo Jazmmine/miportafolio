@@ -380,17 +380,22 @@ $(document).ready(function(){
 	     });	     	     	     		
 	});
 
-animarNombre();
 animarParrafo();
-containerScroll();
+animarNombre();
+
+
 /*animarTitulo();*/
 
 });
 
 function animarNombre(){
 	var name = $("#title-name");
+	var scroll = $("#container-icoAndtext-scroll-drow"); 
 	if(name.is(":hidden")){
-		name.slideDown(1000);
+		name.slideDown(3000);
+	}
+	if(scroll.is(":hidden")){
+		scroll.slideDown(3000);
 	}
 }
 function animarParrafo(){
@@ -403,15 +408,7 @@ function animarParrafo(){
 	}
 }
 
-function containerScroll(){
-	var containerScroll = $("#container-icoAndtext-scroll-drow"); 
 
-		setTimeout(function(){
-			containerScroll.animate({left: "38rem"}, "slow");
-		}, 2500);
-	
-
-}
 /*
 function animarTitulo(){
 	var titulo1 = $("#title-new");

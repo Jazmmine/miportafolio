@@ -175,7 +175,7 @@ li,ol,ul{
 #title-description1{
 	position: absolute;
 	bottom: 0px;
-	margin-left: 250px;
+	margin-left: 230px;
 	transition:bottom 2s;
 }
 
@@ -184,10 +184,8 @@ li,ol,ul{
 }
 
 .container-scroll-skew{
-	position: absolute;
-	left: -15rem;
-	top: 35rem;
-}
+	margin-top: 13rem;
+};
 /*
 #title-new{
 	transition: all .5s ease-in-out;
