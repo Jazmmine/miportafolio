@@ -1,8 +1,11 @@
-.color-green-light{
-  color: #c8cbac;
-}
 .color-white{
-	color: white;
+	color: #FEFDFC;
+}
+.color-pink{
+  color: #F56F6C;
+}
+.font-abyssopelagic{
+  font-family: "abyssopelagic";
 }
 .padding-10{
 	padding-top: 10%;

@@ -1,6 +1,6 @@
 @font-face{
-  font-family: "Anurati";
-  src: url("Anurati.eot"); /* IE9 Compat Modes */
+  font-family: "abyssopelagic";
+  src: url("abyssopelagic.eot"); /* IE9 Compat Modes */
   src: url("webfont.eot?#iefix") format("embedded-opentype"), /* IE-IE */
        url("webfont.woff2") format("woff2"), /* Super Modern Browsers */
        url("webfont.woff") format("woff"), /* Pretty Modern Browsers */
@@ -15,6 +15,8 @@
 }
 body{
 	line-height: 1 ;
+
+
 }
 
 li,ol,ul{
@@ -41,16 +43,18 @@ li,ol,ul{
 }
 
 .btn-info{
+	border: 2px solid white;
+    border-radius: 3px;
 	padding-bottom: 0.8rem;
 	background-color: rgba(255,255,255,0.1) !important;
 }
 
 .hvr-sweep-to-right:before {
-  background: #fff;
+  background: #F98784;
 }
 
 .hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
-  color: black;
+  color: white;
 }
 
 .nav-fixed > nav{
@@ -95,11 +99,11 @@ li,ol,ul{
 }
 
 #border-left-color1, #border-left-color2, #border-left-color3, #border-left-color4{
-	border-left: 18px solid #434343;	
+	border-left: 18px solid #F56F6C;	
 }
 
 #border-left-color1.show:hover{
-	border-left: 18px solid #7af0dc;
+	border-left: 18px solid #baffe8;
 }
 
 #border-left-color2.show:hover{
@@ -120,7 +124,7 @@ li,ol,ul{
 }
 
 .celda1 a{
-	color: #7af0dc;	
+	color: #baffe8;	
 }
 
 .celda2 a{
@@ -138,7 +142,7 @@ li,ol,ul{
 .txt-gif{
 	position: absolute;
 	top: 38%;
-    left: 9%;
+    left: 30%;
 }
 .gif{
 	width: 100%;
@@ -156,12 +160,13 @@ li,ol,ul{
 	top: 0;
 }
 .title-main{
-	font-family: "Anurati";
-	font-size: 6.5rem;
+	font-size: 7.5rem;
 	font-weight: bold;
 }
 .title-center{
-	color: #00A670;
+	 font-size: 4rem;
+	color: #F56F6C;
+	font-weight: bold;
 }
 	/*animacion*/
 /*
@@ -220,13 +225,6 @@ li,ol,ul{
     transform: translate(0px,-935px);
 }*/
 
-.container-scroll-drow{
-	position: relative;
-	top: 260px;
-	margin: 0 auto;
-	max-width: 1280px;
-	width: 90%;
-}
 
 .ico-scroll-drow{
 	margin-top: 20px;
