@@ -380,11 +380,38 @@ $(document).ready(function(){
 	     });	     	     	     		
 	});
 
-
-
+animarNombre();
+animarParrafo();
+containerScroll();
 /*animarTitulo();*/
 
 });
+
+function animarNombre(){
+	var name = $("#title-name");
+	if(name.is(":hidden")){
+		name.slideDown(1000);
+	}
+}
+function animarParrafo(){
+	var parrafo = $("#title-description1"); 
+	
+	if (parrafo.hasClass("ishover")) {
+		parrafo.removeClass("ishover");
+	}else{
+		parrafo.addClass("ishover");
+	}
+}
+
+function containerScroll(){
+	var containerScroll = $("#container-icoAndtext-scroll-drow"); 
+
+		setTimeout(function(){
+			containerScroll.animate({left: "38rem"}, "slow");
+		}, 2500);
+	
+
+}
 /*
 function animarTitulo(){
 	var titulo1 = $("#title-new");

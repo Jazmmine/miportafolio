@@ -50,7 +50,7 @@ li,ol,ul{
 }
 
 .hvr-sweep-to-right:before {
-  background: #F98784;
+  background: #93AEB0;
 }
 
 .hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
@@ -159,16 +159,35 @@ li,ol,ul{
 	z-index: 20;
 	top: 0;
 }
+
 .title-main{
 	font-size: 7.5rem;
 	font-weight: bold;
+	display: none;
 }
 .title-center{
 	 font-size: 4rem;
 	color: #F56F6C;
-	font-weight: bold;
+	font-weight: bold;	
 }
 	/*animacion*/
+
+#title-description1{
+	position: absolute;
+	bottom: 0px;
+	margin-left: 250px;
+	transition:bottom 2s;
+}
+
+#title-description1.ishover{
+	bottom: 18rem;
+}
+
+.container-scroll-skew{
+	position: absolute;
+	left: -15rem;
+	top: 35rem;
+}
 /*
 #title-new{
 	transition: all .5s ease-in-out;
