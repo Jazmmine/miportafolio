@@ -103,7 +103,7 @@ li,ol,ul{
 }
 
 #border-left-color1.show:hover{
-	border-left: 18px solid #baffe8;
+	border-left: 18px solid #3d878e;
 }
 
 #border-left-color2.show:hover{
@@ -111,11 +111,11 @@ li,ol,ul{
 }
 
 #border-left-color3.show:hover{
-	border-left: 18px solid #fcb77b;	
+	border-left: 18px solid rgb(39, 143, 195);	
 }
 
 #border-left-color4.show:hover{
-	border-left: 18px solid #fb959e;	
+	border-left: 18px solid #3e617e;	
 }
 
 .nav-slider > .celda > div > a{
@@ -124,7 +124,7 @@ li,ol,ul{
 }
 
 .celda1 a{
-	color: #baffe8;	
+	color: #3d878e;	
 }
 
 .celda2 a{
@@ -132,11 +132,11 @@ li,ol,ul{
 }
 
 .celda3 a{
-	color: #fcb77b;
+	color: rgb(39, 143, 195);
 }
 
 .celda4 a{
-	color: #fb959e;
+	color: #3e617e;
 }
 
 .txt-gif{
