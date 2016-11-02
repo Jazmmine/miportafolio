@@ -142,10 +142,11 @@
 	width: 15% !important;
 }
 
+/*
 .cnt-img{
 	margin-left: 31% !important;
 	margin-top: 4%;
-}
+}*/
 
 /* Image Spin */
 .hvr-img-spin {
@@ -205,22 +206,6 @@
   animation-iteration-count: infinite;
 }
 
-/* Image Grow Rotate */
-.hvr-img-grow-rotate {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
-  position: relative;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-}
-
-.hvr-img-grow-rotate:hover, .hvr-img-grow-rotate:focus, .hvr-img-grow-rotate:active {
-  -webkit-transform: scale(0.7) rotate(12deg);
-  transform: scale(0.7) rotate(12deg);
-}
 /*airplane*/
 
 @-webkit-keyframes hvr-icono-bob {
