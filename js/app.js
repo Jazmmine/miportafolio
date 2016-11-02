@@ -116,15 +116,15 @@ $(document).ready(function(){
 	$("#information").click(function(e){
 		e.preventDefault();
 	//	$("#main").slideUp();
-	if ($("#js-info-left").hasClass("js-info-left")) {
-		$("#js-info-left").removeClass("js-info-left");
-		$("#js-info-left").addClass("js-info-left-click");		
-	}
+		if ($("#js-info-left").hasClass("js-info-left")) {
+			$("#js-info-left").removeClass("js-info-left");
+			$("#js-info-left").addClass("js-info-left-click");		
+		}
 
-	if ($("#js-info-right").hasClass("js-info-right")) {
-		$("#js-info-right").removeClass("js-info-right");
-		$("#js-info-right").addClass("js-info-right-click");		
-	}
+		if ($("#js-info-right").hasClass("js-info-right")) {
+			$("#js-info-right").removeClass("js-info-right");
+			$("#js-info-right").addClass("js-info-right-click");		
+		}
 
 	});
 
@@ -142,183 +142,53 @@ $(document).ready(function(){
 	/*navbar*/
 	$("#cnt-new-design-life").click(function(e){
 		e.preventDefault();
-		$("#slide-portfile").slideUp();	
-		$("#slide-skills").slideUp();
-		$("#slide-contact").slideUp();			
-		$("#slide-home").show("slow");	
+		moverSlide1();
 	});
 
 	$("#cnt-portfolio").click(function(e){
 		e.preventDefault();
-		$("#slide-home").slideUp();
-		$("#slide-skills").slideUp();
-		$("#slide-contact").slideUp();	
-		$("#slide-portfile").show("slow");	
+		moverSlide2();	
 	});
 
 	$("#cnt-skills").click(function(e){
 		e.preventDefault();
-		$("#slide-home").slideUp();
-		$("#slide-portfile").slideUp();
-		$("#slide-contact").slideUp();	
-		$("#slide-skills").show("slow");			
+		moverSlide3();
+		//loadSkills(); 			
 	});
 
 	$("#cnt-contact-me").click(function(e){
 		e.preventDefault();
-		$("#slide-home").slideUp();	
-		$("#slide-portfile").slideUp();	
-		$("#slide-skills").slideUp();	
-		$("#slide-contact").show("slow");		
+		moverSlide4();	
 	});
-
-	/*"scroll"*/
-	$("#scroll-drow-a").click(function(e){
-		e.preventDefault();
-		$("#slide-home").slideUp();
-		$("#slide-skills").slideUp();
-		$("#slide-contact").slideUp();	
-		$("#slide-portfile").show("slow");
-	});
-
-	$("#scroll-drow-b").click(function(e){
-		e.preventDefault();
-		$("#slide-home").slideUp();
-		$("#slide-portfile").slideUp();
-		$("#slide-contact").slideUp();	
-		$("#slide-skills").show("slow");
-
-		$("#html-circle").empty();
-	    $("#html-circle").circliful({
-	        animation: 1,
-	        animationStep: 6,
-	        foregroundBorderWidth: 5,
-	        backgroundBorderWidth: 1,
-	        percent: 85,
-	        iconColor: '#3498DB',
-	        text: 'HTML5',
-	        iconSize: '50',
-	        iconPosition: 'middle'
-	     });
-
-	    $("#css3-circle").empty();
-	    $("#css3-circle").circliful({
-	        animation: 1,
-	        animationStep: 6,
-	        foregroundBorderWidth: 5,
-	        backgroundBorderWidth: 1,
-	        percent: 78,
-	        iconColor: '#3498DB',
-	        text: 'CSS3',
-	        iconSize: '50',
-	        iconPosition: 'middle'
-	     });	
-
-	    $("#js-circle").empty();
-	    $("#js-circle").circliful({
-	        animation: 1,
-	        animationStep: 6,
-	        foregroundBorderWidth: 5,
-	        backgroundBorderWidth: 1,
-	        percent: 50,
-	        iconColor: '#3498DB',
-	        text: 'Javascript',
-	        iconSize: '50',
-	        iconPosition: 'middle'
-	     });	
-
-	    $("#jq-circle").empty();
-	    $("#jq-circle").circliful({
-	        animation: 1,
-	        animationStep: 6,
-	        foregroundBorderWidth: 5,
-	        backgroundBorderWidth: 1,
-	        percent: 40,
-	        iconColor: '#3498DB',
-	        text: 'jQuery',
-	        iconSize: '50',
-	        iconPosition: 'middle'
-	     });	
-
-	    $("#subtext-circle").empty();
-	    $("#subtext-circle").circliful({
-	        animation: 1,
-	        animationStep: 6,
-	        foregroundBorderWidth: 5,
-	        backgroundBorderWidth: 1,
-	        percent: 50,
-	        iconColor: '#3498DB',
-	        text: 'Sublime Text3',
-	        iconSize: '75',
-	        iconPosition: 'middle'
-	     });	
-
-	    $("#git-circle").empty();
-	    $("#git-circle").circliful({
-	        animation: 1,
-	        animationStep: 6,
-	        foregroundBorderWidth: 5,
-	        backgroundBorderWidth: 1,
-	        percent: 40,
-	        iconColor: '#3498DB',
-	        text: 'GitHub',
-	        iconSize: '65',
-	        iconPosition: 'middle'
-	     });	     	     	     		
-	});
-
-	$("#scroll-drow-c").click(function(e){
-		e.preventDefault();
-		$("#slide-contact").slideUp();	
-		$("#slide-portfile").slideUp();	
-		$("#slide-skills").slideUp();	
-		$("#slide-contact").show("slow");
-	});
-
-	/*btn slideportfile*/
-	$("#btn-html-css").click(function(e){
-		e.preventDefault();
-		$(".page").removeClass("hidden");
-		$("#portfile-html").show("slow");
-		
-	});
-
-
-
-
-
-
-	/*btn atrasportfile*/
-	$("#btn-behind1").click(function(e){
-		$(".page").addClass("hidden");
-		$("#slide-portfile").show("slow");
-	});
-
-
-
-
 
 
 /*btn-scroll-dow*/
 
     $("#first-scroll").click(function(){
-        $("#slide-home").slideUp(800);
-		$("#slide-portfile").show();
+        moverSlide2();
     });	 
 	
     $("#second-scroll").click(function(){
-        $("#slide-portfile").slideUp(8000);
-		$("#slide-skills").show();
+        moverSlide3();
+		loadSkills();
     });	 
 
     $("#thirt-scroll").click(function(){
-        $("#slide-skills").slideUp(8000);
-		$("#slide-contact").show();
+       moverSlide4();
     });	 
 
 
 	/*skills*/
 	$("#cnt-skills").click(function(){
+     	loadSkills();     	     		
+	});
+
+	animarParrafo();
+	animarNombre();
+
+});
+
+function loadSkills(){
 		$("#html-circle").empty();
 	    $("#html-circle").circliful({
 	        animation: 1,
@@ -395,13 +265,8 @@ $(document).ready(function(){
 	        text: 'GitHub',
 	        iconSize: '65',
 	        iconPosition: 'middle'
-	     });	     	     	     		
-	});
-
-animarParrafo();
-animarNombre();
-
-});
+	     });	
+}
 
 function animarNombre(){
 	var name = $("#title-name");
@@ -419,6 +284,66 @@ function animarParrafo(){
 	}
 }
 
+var numSlide = 1;
+/**
+ * 1= slide1
+ * 2=slide2
+ * 3=slide3
+ * 4=slide4
+ */
+
+function moverSlide1(){ //home
+	// $("#slide-portfile").show();
+	if(numSlide>1){//bajan todos(se muestran todos)
+		//se muestra el que esta encima de todos (home)
+		$("#slide-home").slideDown(2000);
+		$("#slide-portfile").slideDown(2000);	
+		$("#slide-skills").slideDown(2000);	
+		$("#slide-contact").slideDown(2000);
+	}
+	numSlide=1;
+}
+function moverSlide2(){//portafolio
+	// $("#slide-portfile").show();
+	if(numSlide>2){//bajan todos hasta porta
+
+		$("#slide-portfile").slideDown(2000);	
+		$("#slide-skills").slideDown(2000);	
+		$("#slide-contact").slideDown(2000);
+		
+	}else{ //suben hasta antes de portafolio(2)
+		// $("#slide-portfile").show();
+		// $("#slide-skills").show();
+		// $("#slide-contact").show();
+		$("#slide-home").slideUp(2000);
+	}
+	numSlide=2;
+}
+function moverSlide3(){//skills
+	// $("#slide-portfile").show();
+	if(numSlide>3){//bajan todos hasta skills
+			
+		$("#slide-skills").slideDown(2000);	
+		$("#slide-contact").slideDown(2000);
+	}else{//suben hasta antes de skills(3)
+		$("#slide-home").slideUp(2000);
+		$("#slide-portfile").slideUp(2000);
+	}
+	numSlide=3;
+}
+function moverSlide4(){//contact
+	// $("#slide-portfile").show();
+	if(numSlide>4){//bajan todos hasta contact
+		$("#slide-contact").slideDown(2000);
+		numSlide=4;
+	}else{//suben hasta antes de contact(4)
+		$("#slide-home").slideUp(2000);
+		$("#slide-portfile").slideUp(2000);
+		$("#slide-skills").slideUp(2000);
+		//$("#slide-contact").slideUp(2000);
+	}
+	numSlide=4;
+}
 
 
 	
