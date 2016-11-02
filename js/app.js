@@ -12,6 +12,10 @@ $(document).ready(function(){
 		$("#title-design").addClass("title-design");
 	}
 */
+	$("#logo").click(function(e){
+		e.preventDefault();
+		moverSlide1();
+	});
 
 	$("#information").click(function(e){
 		e.preventDefault();
@@ -83,10 +87,23 @@ $(document).ready(function(){
      	loadSkills();     	     		
 	});
 
-	animarParrafo();
-	animarNombre();
-
+	initPage();
 });
+
+function initPage(){
+	
+	setTimeout(function() {
+		//cuando carga, se oculta el icono de carga y el texto de loading
+		$("#progressInit").hide();
+		$("#progressInitTexto").hide();
+	
+		$(".loader-init").slideUp(1000);
+		setTimeout(function() {
+			animarParrafo();
+			animarNombre();	
+		}, 1000);
+	}, 1000);
+}
 
 function loadSkills(){
 		$("#html-circle").empty();

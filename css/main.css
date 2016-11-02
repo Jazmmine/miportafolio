@@ -159,8 +159,9 @@ li,ol,ul{
 
 .txt-gif{
 	position: absolute;
-	top: 38%;
-    left: 30%;
+	top: 30%;
+	left: 25%;
+	font-size: 2.5rem;
 }
 .gif{
 	width: 100%;
@@ -201,9 +202,6 @@ li,ol,ul{
 	bottom: 18rem;
 }
 
-.container-scroll-skew{
-	margin-top: 13rem;
-};
 /*
 #title-new{
 	transition: all .5s ease-in-out;
@@ -325,20 +323,23 @@ li,ol,ul{
 }
 
 /*slide-portfile*/
+.container-portfile{
+	margin: 0 auto;
+  	max-width: 1280px;
+  	width: 90%;
+}
 #slide-portfile{
 	position: absolute;
 	top: 0;
 	z-index: 90;
-	background-image: url("../img/fondo_principal.png");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
 	height: 100vh;
-  	/*overflow: overlay;*/
 }
 .slide-push-portfile{
 	height: auto;
     width: 100%;
+}
+.padding-portfile{
+	padding-top: 46px;
 }
 #scroll-drow2{
 	transition: all .5s ease-in-out;	
@@ -396,6 +397,34 @@ li,ol,ul{
 .txt-contact{
 	line-height: 1.5;
 }
+
+/*loader*/
+.loader-init{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-color: black;
+	opacity: 1;
+	z-index: 1000;
+}
+#progressInit{
+	margin: auto;
+    display: block;
+    top: 50%;
+}
+#progressInitTexto{
+    padding-top: 4.5rem;
+    color: rgba(255,255,255,.9);
+    font-size: 1.28571429em;
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    width: 100%;
+}
+
 
 
 

@@ -12,8 +12,50 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<!--<div class="loader-hidden">		
-	</div>-->
+		<div class="loader-init ">
+			<div id="progressInit" class="preloader-wrapper big active">
+				<div  class="spinner-layer spinner-blue">
+					<div class="circle-clipper left">
+						<div class="circle"></div>
+					</div><div class="gap-patch">
+						<div class="circle"></div>
+					</div><div class="circle-clipper right">
+						<div class="circle"></div>
+					</div>
+				</div>
+				<div class="spinner-layer spinner-red">
+					<div class="circle-clipper left">
+						<div class="circle"></div>
+					</div><div class="gap-patch">
+						<div class="circle"></div>
+					</div><div class="circle-clipper right">
+						<div class="circle"></div>
+					</div>
+				</div>
+
+				<div class="spinner-layer spinner-yellow">
+					<div class="circle-clipper left">
+						<div class="circle"></div>
+					</div><div class="gap-patch">
+						<div class="circle"></div>
+					</div><div class="circle-clipper right">
+						<div class="circle"></div>
+					</div>
+				</div>
+
+				<div class="spinner-layer spinner-green">
+					<div class="circle-clipper left">
+						<div class="circle"></div>
+					</div><div class="gap-patch">
+						<div class="circle"></div>
+					</div><div class="circle-clipper right">
+						<div class="circle"></div>
+					</div>
+				</div>
+				
+			</div>
+			<div id="progressInitTexto">Loading...</div>
+	</div>
 	<!--<div class="mobile">
 	</div>-->
 	<div class="main geo no-scroll">
@@ -21,14 +63,14 @@
 	      	<div class="nav-fixed">
 		        <nav>
 		          <div class="nav-wrapper">
-		            <a href="#main.html" class="font-abyssopelagic">J</a>
+		            <a href="#" class="font-abyssopelagic" id="logo">J</a>
 		            <ul class="right hide-on-med-and-down">
 		              <li><a href="#" id="information" class="hvr-sweep-to-right btn btn-info">INFORMATION</a></li>
 		            </ul>
 		          </div>
 		        </nav> 
 	      	</div>
-			<ul class="nav-slider">
+			<ul class="nav-slider font-abyssopelagic font-weight-bold">
 			        <li class="celda celda1">
 			          	<div id="border-left-color1" class="show">
 			          		<a href="#" id="cnt-new-design-life">
@@ -94,24 +136,213 @@
 		            </div>	
 				</div>
 			</div>
-			<div class="slide-push padding-10" id="slide-portfile">
-		        <div class="container">
+			<div class="slide-push" id="slide-portfile">
+		        <div class="container-portfile">
 			        <div class="row color-white">
-			            <div class="col s12">
-			              <h2 class="center-align">Portfile</h2>
-			            </div>
-			        </div>
-			        <div class="row color-white">
+								 	<h2 class="center-align font-abyssopelagic padding-portfile">Portfile</h2>
 			            <p class="center-align">These are some jobs you make Laboratoria</p>
 			        </div>
-			        <div class="row">
-			            <div class="col s12 center-align">
-			              	<a href="#" id= "btn-html-css" class="waves-effect waves-light btn-large red accent-2">HTML & CSS</a>
-			              	<a href="#" id="btn-js" class="waves-effect waves-light btn-large red accent-2">JAVASCRIPT</a>
-			              	<a href="#" id="btn-jq" class="waves-effect waves-light btn-large red accent-2">JQUERY</a>
-			              	<a href="#" id="btn-todos" class="waves-effect waves-light btn-large red accent-2">TODOS</a>
-			            </div>
+							<div class="row">
+								<div class="col s12">
+									<ul class="tabs">
+										<li class="tab col s3"><a class="active"  href="#test1">Todos</a></li>
+										<li class="tab col s3"><a href="#test2">HTML & CSS</a></li>
+										<li class="tab col s3"><a href="#test3">BOOSTRAP</a></li>
+										<li class="tab col s3"><a href="#test4">JAVASCRIPT & JQUERY</a></li>
+									</ul>
+								</div>
+								<div id="test1" class="col s12">
+									<div class="row">
+										<div class="col s2">
+											<div class="card">
+												<div class="card-image waves-effect waves-block waves-light">
+													<img class="activator" src="img/portfile/layout.png">
+												</div>
+												<div class="card-action">
+													<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+													<p><a href="#">This is a link</a> <a href="#">This is a otro link</a></p>
+												</div>
+												<div class="card-reveal">
+													<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+													<p>Here is some more information about this product that is only revealed once clicked on.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col s2">
+											<div class="card">
+												<div class="card-image waves-effect waves-block waves-light">
+													<img class="activator" src="img/portfile/danza.png">
+												</div>
+												<div class="card-action">
+													<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+													<p><a href="#">This is a link</a> <a href="#">This is a otro link</a></p>
+												</div>
+												<div class="card-reveal">
+													<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+													<p>Here is some more information about this product that is only revealed once clicked on.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col s2">
+											<div class="card">
+												<div class="card-image waves-effect waves-block waves-light">
+													<img class="activator" src="img/portfile/ecomunidad.png">
+												</div>
+												<div class="card-action">
+													<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+													<p><a href="#">This is a link</a> <a href="#">This is a otro link</a></p>
+												</div>
+												<div class="card-reveal">
+													<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+													<p>Here is some more information about this product that is only revealed once clicked on.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col s2">
+											<div class="card">
+												<div class="card-image waves-effect waves-block waves-light">
+													<img class="activator" src="img/portfile/blog.png">
+												</div>
+												<div class="card-action">
+													<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+													<p><a href="#">This is a link</a> <a href="#">This is a otro link</a></p>
+												</div>
+												<div class="card-reveal">
+													<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+													<p>Here is some more information about this product that is only revealed once clicked on.</p>
+												</div>
+											</div>
+										</div>	
+										<div class="col s2">
+											<div class="card">
+												<div class="card-image waves-effect waves-block waves-light">
+													<img class="activator" src="img/portfile/user.png">
+												</div>
+												<div class="card-action">
+													<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+													<p><a href="#">This is a link</a> <a href="#">This is a otro link</a></p>
+												</div>
+												<div class="card-reveal">
+													<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+													<p>Here is some more information about this product that is only revealed once clicked on.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col s2">
+											<div class="card">
+												<div class="card-image waves-effect waves-block waves-light">
+													<img class="activator" src="img/portfile/portafolio.png">
+												</div>
+												<div class="card-action">
+													<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+													<p><a href="#">This is a link</a> <a href="#">This is a otro link</a></p>
+												</div>
+												<div class="card-reveal">
+													<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+													<p>Here is some more information about this product that is only revealed once clicked on.</p>
+												</div>
+											</div>
+										</div>									
+									</div>
+									<div class="row">
+										<div class="col s2">
+											<div class="card">
+												<div class="card-image waves-effect waves-block waves-light">
+													<img class="activator" src="img/portfile/republica.png">
+												</div>
+												<div class="card-action">
+													<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+													<p><a href="#">This is a link</a> <a href="#">This is a otro link</a></p>
+												</div>
+												<div class="card-reveal">
+													<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+													<p>Here is some more information about this product that is only revealed once clicked on.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col s2">
+											<div class="card">
+												<div class="card-image waves-effect waves-block waves-light">
+													<img class="activator" src="img/portfile/bitacora.png">
+												</div>
+												<div class="card-action">
+													<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+													<p><a href="#">This is a link</a> <a href="#">This is a otro link</a></p>
+												</div>
+												<div class="card-reveal">
+													<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+													<p>Here is some more information about this product that is only revealed once clicked on.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col s2">
+											<div class="card">
+												<div class="card-image waves-effect waves-block waves-light">
+													<img class="activator" src="img/portfile/twitter.png">
+												</div>
+												<div class="card-action">
+													<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+													<p><a href="#">This is a link</a> <a href="#">This is a otro link</a></p>
+												</div>
+												<div class="card-reveal">
+													<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+													<p>Here is some more information about this product that is only revealed once clicked on.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col s2">
+											<div class="card">
+												<div class="card-image waves-effect waves-block waves-light">
+													<img class="activator" src="img/portfile/trello.png">
+												</div>
+												<div class="card-action">
+													<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+													<p><a href="#">This is a link</a> <a href="#">This is a otro link</a></p>
+												</div>
+												<div class="card-reveal">
+													<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+													<p>Here is some more information about this product that is only revealed once clicked on.</p>
+												</div>
+											</div>
+										</div>	
+										<div class="col s2">
+											<div class="card">
+												<div class="card-image waves-effect waves-block waves-light">
+													<img class="activator" src="img/portfile/lyft.png">
+												</div>
+												<div class="card-action">
+													<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+													<p><a href="#">This is a link</a> <a href="#">This is a otro link</a></p>
+												</div>
+												<div class="card-reveal">
+													<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+													<p>Here is some more information about this product that is only revealed once clicked on.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col s2">
+											<div class="card">
+												<div class="card-image waves-effect waves-block waves-light">
+													<img class="activator" src="images/office.jpg">
+												</div>
+												<div class="card-action">
+													<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+													<p><a href="#">This is a link</a> <a href="#">This is a otro link</a></p>
+												</div>
+												<div class="card-reveal">
+													<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+													<p>Here is some more information about this product that is only revealed once clicked on.</p>
+												</div>
+											</div>
+										</div>									
+									</div>
+								</div>
+								<div id="test1" class="col s12">Test 1</div>
+								<div id="test2" class="col s12">Test 2</div>
+								<div id="test3" class="col s12">Test 3</div>
+								<div id="test4" class="col s12">Test 4</div>
 							</div>
+
 		        </div>	
 						<div class="container">
 										<div class="row container-scroll-skew" id="container-icoAndtext-scroll-drow">
@@ -128,13 +359,13 @@
 				<div class="container">
 					<div class="row">
 						<div class="col s12">
-							<h2 class="color-white center-align">SKILLS</h2>
+							<h2 class="color-white center-align font-abyssopelagic">SKILLS</h2>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col s6">
 							<div class="row">
-								<h5 class="center-align color-white">FRONT-END</h5>
+								<h5 class="center-align color-white font-abyssopelagic">FRONT-END</h5>
 							</div>
 							<div class="row">
 							    <div class="col s12">
@@ -157,7 +388,7 @@
 						</div>						
 						<div class="col s6">
 							<div class="row">
-								<h5 class="center-align color-white">HERRAMIENTAS</h5>
+								<h5 class="center-align color-white font-abyssopelagic">TOOLS</h5>
 							</div>
 							<div class="row row-herramientas">
 								<div class="col s12">

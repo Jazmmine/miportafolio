@@ -12,7 +12,9 @@
 .font-abyssopelagic{
   font-family: "abyssopelagic";
 }
-
+.font-weight-bold{
+  font-weight: bold;
+}
 .padding-10{
 	padding-top: 10%;
 }
