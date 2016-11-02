@@ -56,6 +56,17 @@ li,ol,ul{
 .description{
 	line-height: 2 !important;
 }
+.cnt-info{
+	margin-top: 63px;
+}
+#close{
+	position: absolute;
+    right: 50px;
+	border-radius: 3px;
+}
+#close:hover{
+	transform: rotate(100deg);
+}
 .hvr-sweep-to-right:before {
   background: #93AEB0;
 }
