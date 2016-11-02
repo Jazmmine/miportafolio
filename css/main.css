@@ -334,7 +334,7 @@ li,ol,ul{
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 100vh;
-  	overflow: overlay;
+  	/*overflow: overlay;*/
 }
 .slide-push-portfile{
 	height: auto;
@@ -369,7 +369,7 @@ li,ol,ul{
 	z-index: 80;
 	background-color: black;
 	height: 100vh;
-  	overflow: overlay;
+  	/*overflow: overlay;*/
   	padding-top: 3%;	
 }
 .row-herramientas{
@@ -390,9 +390,12 @@ li,ol,ul{
 	z-index: 70;
 	background-color: #4e5e6b;
 	height: 100vh;
-  	overflow: overlay;	
+  	/*overflow: overlay;	*/
 }
 
 .txt-contact{
 	line-height: 1.5;
 }
+
+
+

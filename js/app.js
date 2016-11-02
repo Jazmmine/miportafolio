@@ -1,111 +1,11 @@
 /*particlesJS("particles-js", {"particles":{"number":{"value":400,"density":{"enable":true,"value_area":800}},"color":{"value":"#fff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":true,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":10,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":false,"distance":500,"color":"#ffffff","opacity":0.4,"width":2},"move":{"enable":true,"speed":6,"direction":"bottom","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"bubble"},"onclick":{"enable":true,"mode":"repulse"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":0.5}},"bubble":{"distance":400,"size":4,"duration":0.3,"opacity":1,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
 */
 $(document).ready(function(){
-	 
-	$(".geo").Geometryangle({
+	 cargarFondo(".geo","rgb(46,101,106)");
+	 cargarFondo("#slide-portfile","rgb(91,142,186)");
+	 cargarFondo("#slide-skills","rgb(29,105,143)");
+	 cargarFondo("#slide-contact","rgb(62,97,126)");
 
-	// handle transparent colors
-	mesh:{
-
-	  width: 1.2,
-	  height: 1.2,
-
-	  // How far should the mesh vary into z-space.
-	  depth: 10,
-
-	  // Number of columns for the mesh.
-	  columns: undefined,
-
-	  columns_auto: true,
-
-	  // Number of rows for the mesh.
-	  rows: undefined,
-
-	  rows_auto: true,
-	  zoom: 1,
-	  xRange: 0.8,
-	  yRange: 0.1,
-	  zRange: 1.0,
-	  ambient: 'rgb(0, 0, 0)',
-	  diffuse: 'rgba(0, 0, 0, 0.1)',
-	  background: "rgb(46,101,106)",
-	  speed: 0.0002,
-	  fluctuationSpeed: 0.5,
-	  fluctuationIntensity: 0,
-	  onRender: function () {
-	  },
-	  floorPosition: false,
-	  draw: true
-
-	}, 
-
-
-	lights: {
-
-	  // How many light sources belong to this light.
-	  count: 1,
-
-	  xyScalar: 1,
-
-	  // Position of light source.
-	  zOffset: 100,
-
-	  ambient: 'rgba(255,255,255, 0.2)',
-	  diffuse: 'rgba(255,255,255, 0.2)',
-	  speed: 0.010,
-	  gravity: 1200,
-
-	  // Dampening of light's movements.
-	  dampening: 0.95,
-
-	  minLimit: 10,
-	  maxLimit: null,
-	  minDistance: 20,
-	  maxDistance: 400,
-	  autopilot: false,
-	  draw: false, //show circle
-	  bounds: FSS.Vector3.create(),
-	  step: FSS.Vector3.create(
-	    Math.randomInRange(0.9, 1.0),
-	    Math.randomInRange(0.9, 1.0),
-	    Math.randomInRange(0.9, 1.0)
-	  )
-
-	},
-
-	// specify the thickness, color, stroke, etc. 
-	line: {
-
-	  fill: "rgba(255, 255, 255, 1)",
-	  thickness: 1,
-	  fluctuationIntensity: 0,
-	  fluctuationSpeed: 0.5,
-	  draw: false
-
-	}, 
-
-	// Set the point attributes for the vertex. 
-	vertex: {
-
-	  // Radius of vertice circle.
-	  radius: 0,
-
-	  fill: "rgba(255, 255, 255, 1)",
-
-	  // Fluctuates opacity of vertex.
-	  fluctuationSpeed: 0.5,
-
-	  fluctuationIntensity: 0,
-	  strokeWidth: 0,
-	  strokeColor: "rgba(255, 255, 255, 1)",
-
-	  // Instead of setting alpha channel to zero
-	  // Set draw to false to avoid computing.
-	  draw: false
-
-	}
-
-	});
 /*	if ($("#title-design").hasClass("title-design")) {
 		$("#title-design").removeClass("title-design");		
 	}else{
@@ -199,7 +99,8 @@ function loadSkills(){
 	        iconColor: '#3498DB',
 	        text: 'HTML5',
 	        iconSize: '50',
-	        iconPosition: 'middle'
+	        iconPosition: 'middle',
+			textColor:'#ffffff'
 	     });
 
 	    $("#css3-circle").empty();
@@ -212,7 +113,8 @@ function loadSkills(){
 	        iconColor: '#3498DB',
 	        text: 'CSS3',
 	        iconSize: '50',
-	        iconPosition: 'middle'
+	        iconPosition: 'middle',
+			textColor:'#ffffff'
 	     });	
 
 	    $("#js-circle").empty();
@@ -225,7 +127,8 @@ function loadSkills(){
 	        iconColor: '#3498DB',
 	        text: 'Javascript',
 	        iconSize: '50',
-	        iconPosition: 'middle'
+	        iconPosition: 'middle',
+			textColor:'#ffffff'
 	     });	
 
 	    $("#jq-circle").empty();
@@ -238,7 +141,8 @@ function loadSkills(){
 	        iconColor: '#3498DB',
 	        text: 'jQuery',
 	        iconSize: '50',
-	        iconPosition: 'middle'
+	        iconPosition: 'middle',
+			textColor:'#ffffff'
 	     });	
 
 	    $("#subtext-circle").empty();
@@ -251,7 +155,8 @@ function loadSkills(){
 	        iconColor: '#3498DB',
 	        text: 'Sublime Text3',
 	        iconSize: '75',
-	        iconPosition: 'middle'
+	        iconPosition: 'middle',
+			textColor:'#ffffff'
 	     });	
 
 	    $("#git-circle").empty();
@@ -264,7 +169,8 @@ function loadSkills(){
 	        iconColor: '#3498DB',
 	        text: 'GitHub',
 	        iconSize: '65',
-	        iconPosition: 'middle'
+	        iconPosition: 'middle',
+			textColor:'#ffffff'
 	     });	
 }
 
@@ -346,7 +252,120 @@ function moverSlide4(){//contact
 }
 
 
-	
+function cargarFondo(elemento,colorrgb){
+	$(elemento).Geometryangle({
+
+	// handle transparent colors
+	mesh:{
+
+	  width: 1.2,
+	  height: 1.2,
+
+	  // How far should the mesh vary into z-space.
+	  depth: 10,
+
+	  // Number of columns for the mesh.
+	  columns: undefined,
+
+	  columns_auto: true,
+
+	  // Number of rows for the mesh.
+	  rows: undefined,
+
+	  rows_auto: true,
+	  zoom: 1,
+	  xRange: 0.8,
+	  yRange: 0.1,
+	  zRange: 1.0,
+	  ambient: 'rgb(0, 0, 0)',
+	  diffuse: 'rgba(0, 0, 0, 0.1)',
+	  background: colorrgb,
+	  speed: 0.0002,
+	  fluctuationSpeed: 0.5,
+	  fluctuationIntensity: 0,
+	  onRender: function () {
+	  },
+	  floorPosition: false,
+	  draw: true
+
+	}, 
+
+
+	lights: {
+
+	  // How many light sources belong to this light.
+	  count: 1,
+
+	  xyScalar: 1,
+
+	  // Position of light source.
+	  zOffset: 100,
+
+	  ambient: 'rgba(255,255,255, 0.2)',
+	  diffuse: 'rgba(255,255,255, 0.2)',
+	  speed: 0.010,
+	  gravity: 1200,
+
+	  // Dampening of light's movements.
+	  dampening: 0.95,
+
+	  minLimit: 10,
+	  maxLimit: null,
+	  minDistance: 20,
+	  maxDistance: 400,
+	  autopilot: false,
+	  draw: false, //show circle
+	  bounds: FSS.Vector3.create(),
+	  step: FSS.Vector3.create(
+	    Math.randomInRange(0.9, 1.0),
+	    Math.randomInRange(0.9, 1.0),
+	    Math.randomInRange(0.9, 1.0)
+	  )
+
+	},
+
+	// specify the thickness, color, stroke, etc. 
+	line: {
+
+	  fill: "rgba(255, 255, 255, 1)",
+	  thickness: 1,
+	  fluctuationIntensity: 0,
+	  fluctuationSpeed: 0.5,
+	  draw: false
+
+	}, 
+
+	// Set the point attributes for the vertex. 
+	vertex: {
+
+	  // Radius of vertice circle.
+	  radius: 0,
+
+	  fill: "rgba(255, 255, 255, 1)",
+
+	  // Fluctuates opacity of vertex.
+	  fluctuationSpeed: 0.5,
+
+	  fluctuationIntensity: 0,
+	  strokeWidth: 0,
+	  strokeColor: "rgba(255, 255, 255, 1)",
+
+	  // Instead of setting alpha channel to zero
+	  // Set draw to false to avoid computing.
+	  draw: false
+
+	}
+
+	});
+}
+
+
+
+
+
+
+
+
 
 
 
