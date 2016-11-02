@@ -15,6 +15,15 @@
 .font-weight-bold{
   font-weight: bold;
 }
+.sin-margin-bottom{
+  margin-bottom:0;
+}
+.font-size-13{
+  font-size: 13.5px;
+}
+.margin-top-55{
+  margin-top: 55px;
+}
 .padding-10{
 	padding-top: 10%;
 }

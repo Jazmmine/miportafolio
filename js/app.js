@@ -3,7 +3,7 @@
 $(document).ready(function(){
 	 cargarFondo(".geo","rgb(46,101,106)");
 	 cargarFondo("#slide-portfile","rgb(91,142,186)");
-	 cargarFondo("#slide-skills","rgb(29,105,143)");
+	 cargarFondo("#slide-skills","rgb(80,97,126)");
 	 cargarFondo("#slide-contact","rgb(62,97,126)");
 
 /*	if ($("#title-design").hasClass("title-design")) {
