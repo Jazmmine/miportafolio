@@ -24,11 +24,34 @@
 .font-size-13{
   font-size: 13.5px;
 }
+.side-nav a{
+    color: rgba(0,0,0,0.87);
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 16px;
+}
+.side-nav-ico{
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    margin: 0 32px 0 0;
+    width: 24px;
+    color: rgba(0,0,0,0.54);
+}
 .margin-top-20px{
 	margin-top: 20px;
 }
 .margin-top-55{
     margin-top: 9rem;
+}
+.margin-left-2{
+  margin-left: 2rem !important;
+}
+.margin-right-2{
+  margin-right: 2rem !important;
 }
 .padding-10{
 	padding-top: 10%;
