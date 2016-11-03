@@ -184,10 +184,8 @@ li,ol,ul{
 }
 .container-height{
 	height: 90%;
-    border: 2px solid red;	
 }
 .row-main-txt{
-	border: 2px solid yellow;
     height: 39vh;
 }
 .title-main{
@@ -208,64 +206,6 @@ li,ol,ul{
 #content-scroll{
 	display: none;
 }
-
-
-/*
-#title-new{
-	transition: all .5s ease-in-out;
-}
-
-#title-new:hover{
-    -ms-transform: scale(2,3); 
-    -webkit-transform: scale(2,3); 
-    transform: scale(2,3); 	
-}
-#title-new.ishover{
-    -ms-transform: scale(2,3);
-    -webkit-transform: scale(2,3); 
-    transform: scale(2,3);	
-}
-
-#title-design{
-	transition: all .5s ease-in-out;
-}
-
-#title-design:hover{
-	-ms-transform: scale(0.5,0.5);
-    -webkit-transform: scale(0.5,0.5); 
-    transform: scale(0.5,0.5); 
-}
-#title-design.ishover{
-	-ms-transform: scale(0.5,0.5); 
-    -webkit-transform: scale(0.5,0.5); 
-    transform: scale(0.5,0.5); 
-}*/
-
-
-/*#title-description{
-	transition: all .5s ease-in-out;
-}
-#title-description:hover{
-    transform:rotateY(180deg);
-}*/
-/*
-#title-description{
-	position: absolute;
-	top: 290px;
-	left: -700px;
-
-}*/
-/*#title-description.ishover{
-		-webkit-transition: all 3s ease-in;
-    -moz-transition: all 3s ease-in;
-    -o-transition: all 3s ease-in;
-    -webkit-transform: translate(0px,-935px);
-    -moz-transform: translate(0px,-935px);
-    -o-transform: translate(0px,-935px);
-    -ms-transform: translate(0px,-935px);
-    transform: translate(0px,-935px);
-}*/
-
 
 #scroll-drow1{
 	transition: all .5s ease-in-out;
@@ -429,6 +369,62 @@ li,ol,ul{
     width: 100%;
 }
 
+/*Media Queries*/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.nav-slider {
+    position: fixed;
+    z-index: 998;
+    display: table-cell;
+    top: 37vh;
+    right: 0;
+	}
 
+	.col-txt-main{
+		margin-top: 6rem;
+	}
+	.row-main-txt {
+		border: 2px solid yellow;
+		height: 39vh;
+		margin-top: 40rem;
+	}
+	.content-scroll > span{
+		font-size: 2rem;
+	}
+	.content-scroll > a > i{
+		font-size: 3rem;
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+	.nav-slider {
+    position: fixed;
+    z-index: 998;
+    display: table-cell;
+    top: 37vh;
+    right: 0;
+	}
+
+	.col-txt-main{
+		margin-top: 6rem;
+	}
+	.row-main-txt {
+		border: 2px solid yellow;
+		height: 39vh;
+		margin-top: 40rem;
+	}
+	.content-scroll > span{
+		font-size: 2rem;
+	}
+	.content-scroll > a > i{
+		font-size: 3rem;
+	}
+}
 
 
