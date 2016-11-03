@@ -2,12 +2,15 @@
 	color: #FEFDFC;
 }
 
+.color-pink{
+  color: #F56F6C;
+}
 .icons-information {
   color: black !important;
   font-size: 2rem;
 }
-.color-pink{
-  color: #F56F6C;
+.display-block{
+  display: block;
 }
 .font-abyssopelagic{
   font-family: "abyssopelagic";
@@ -21,8 +24,11 @@
 .font-size-13{
   font-size: 13.5px;
 }
+.margin-top-20px{
+	margin-top: 20px;
+}
 .margin-top-55{
-  margin-top: 55px;
+    margin-top: 9rem;
 }
 .padding-10{
 	padding-top: 10%;

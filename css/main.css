@@ -173,12 +173,23 @@ li,ol,ul{
 	width: 100%;
 }
 /*slide-home*/
+.home{
+	height: 100vh;
+    width: 100vw;
+}
 #slide-home{
 	position: absolute;
 	z-index: 100;
 	top: 0;
 }
-
+.container-height{
+	height: 90%;
+    border: 2px solid red;	
+}
+.row-main-txt{
+	border: 2px solid yellow;
+    height: 39vh;
+}
 .title-main{
 	font-size: 7.5rem;
 	font-weight: bold;
@@ -192,15 +203,12 @@ li,ol,ul{
 	/*animacion*/
 
 #title-description1{
-	position: absolute;
-	bottom: 0px;
-	margin-left: 230px;
-	transition:bottom 2s;
+	display: none;
+}
+#content-scroll{
+	display: none;
 }
 
-#title-description1.ishover{
-	bottom: 18rem;
-}
 
 /*
 #title-new{
@@ -258,10 +266,6 @@ li,ol,ul{
     transform: translate(0px,-935px);
 }*/
 
-
-.ico-scroll-drow{
-	margin-top: 20px;
-}
 
 #scroll-drow1{
 	transition: all .5s ease-in-out;
