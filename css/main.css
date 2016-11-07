@@ -161,7 +161,6 @@ li,ol,ul{
 	position: absolute;
 	top: 30%;
 	left: 25%;
-	font-size: 2.5rem;
 }
 .gif{
 	width: 100%;
@@ -193,11 +192,7 @@ li,ol,ul{
 	font-weight: bold;
 	display: none;
 }
-.title-center{
-	 font-size: 4rem;
-	color: #F56F6C;
-	font-weight: bold;	
-}
+
 	/*animacion*/
 
 #title-description1{
@@ -384,7 +379,6 @@ li,ol,ul{
 		margin-top: 6rem;
 	}
 	.row-main-txt {
-		border: 2px solid yellow;
 		height: 39vh;
 		margin-top: 40rem;
 	}
@@ -415,7 +409,6 @@ li,ol,ul{
 		margin-top: 6rem;
 	}
 	.row-main-txt {
-		border: 2px solid yellow;
 		height: 39vh;
 		margin-top: 36rem;
 	}

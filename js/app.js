@@ -2,9 +2,9 @@
 */
 $(document).ready(function(){
 	 cargarFondo(".geo","rgb(46,101,106)");
-	 cargarFondo("#slide-portfile","rgb(91,142,186)");
-	 cargarFondo("#slide-skills","rgb(80,97,126)");
-	 cargarFondo("#slide-contact","rgb(62,97,126)");
+	 cargarFondo("#slide-portfile","rgb(37, 80, 84)");
+	 cargarFondo("#slide-skills","rgb(32, 72, 76)");
+	 cargarFondo("#slide-contact","rgb(21, 52, 56)");
 
 	$('.button-collapse').sideNav({
 		menuWidth: 300, // Default is 240
