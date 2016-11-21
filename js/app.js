@@ -65,7 +65,7 @@ $(document).ready(function(){
 	$(".cnt-skills").click(function(e){
 		e.preventDefault();
 		moverSlide3();
-		//loadSkills(); 			
+		loadSkills(); 			
 	});
 
 	$(".cnt-contact-me").click(function(e){

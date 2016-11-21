@@ -40,10 +40,26 @@
 .padding-10{
 	padding-top: 10%;
 }
+.padding-3{
+	padding-top: 3%;
+}
 .hidden{
 	display: none;
 }
 
+.height-32{
+  height: 32px;
+}
+
+.font-size-32{
+    font-size: 22px !important;  
+}
+.tabs-sinbg{
+    background-color: rgba(255, 255, 255, 0.01);
+}
+.margin-left-25{
+    margin-left: 25% !important;
+}
 /* Image Pulse */
 @-webkit-keyframes hvr-img-pulse {
   25% {
