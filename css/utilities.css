@@ -50,7 +50,9 @@
 .height-32{
   height: 32px;
 }
-
+.height-100-px{
+  height: 90px;
+}
 .font-size-32{
     font-size: 22px !important;  
 }
@@ -58,7 +60,18 @@
     background-color: rgba(255, 255, 255, 0.01);
 }
 .margin-left-25{
-    margin-left: 25% !important;
+    margin-left: 12% !important;
+}
+.margin-left-41{
+  margin-left: 41%
+}
+.row-margin-botom-0{
+  margin-bottom: 0;
+}
+.right-menu{
+    position: absolute;
+    right: 30px;
+    top: 0;
 }
 /* Image Pulse */
 @-webkit-keyframes hvr-img-pulse {

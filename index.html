@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Jazmine Angoma|Portfile</title>
+	<title>Jazmine Angoma|Portafolio</title>
 	<link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/jquery.circliful.css"/>
 	<link rel="stylesheet" type="text/css" href="css/hover-min.css">
@@ -64,20 +64,21 @@
 		        <nav>
 		          <div class="nav-wrapper">
 		            <a href="#" class="font-abyssopelagic margin-left-2" id="logo">J</a>
-					<a href="#" data-activates="mobile-demo" class="right button-collapse margin-right-2"><i class="material-icons">menu</i></a>
 		            <ul class="right hide-on-med-and-down">
 		              <li><a href="info.html" class="btn-click-information hvr-sweep-to-right btn btn-info">Sobre mí</a></li>
 		            </ul>
-					<ul class="side-nav" id="mobile-demo">
-						<li><a href="info.html"  class="btn-click-information"><i class="material-icons side-nav-ico">person</i><span>Sobre mí</span></a></li>
-						<ul>
-							<li><a href="welcome.html" class="cnt-new-design-life"><i class="material-icons side-nav-ico">home</i><span>Bienvenida</span></a></li>
-							<li><a href="portfolio.html" class="cnt-portfolio"><i class="material-icons side-nav-ico">folder</i><span>Portafolio</span></a></li>
-							<li><a href="skills.html" class="cnt-skills"><i class="material-icons side-nav-ico">verified_user</i><span>Habilidades</span></a></li>
-							<li><a href="contact.html" class="cnt-contact-me"><i class="material-icons side-nav-ico">contact_mail</i><span>Contáctame</span></a></li>
-						</ul>
-					</ul>
-		          </div>
+					<div class="right-menu"><a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a></div>
+		          </div>	  
+				<ul id="slide-out" class="side-nav">
+					<li class=" margin-top-55"><a class="a-nav-scroll waves-effect cnt-new-design-life" href="welcome.html">BIENVENIDO</a></li>
+					<li><div class="divider"></div></li>
+					<li><a class="a-nav-scroll waves-effect cnt-portfolio" href="portfolio.html">PORTAFOLIO</a></li>
+					<li><div class="divider"></div></li>
+					<li><a class="a-nav-scroll waves-effect cnt-skills" href="skills.html">HABILIDADES</a></li>
+					<li><div class="divider"></div></li>
+					<li><a class="a-nav-scroll waves-effect cnt-contact-me" href="contact.html">CONTÁCTAME</a></li>
+				</ul>
+				
 		        </nav> 
 	      	</div>
 			<ul class="nav-slider right hide-on-med-and-down">
@@ -108,7 +109,7 @@
 			        <li class="celda celda4">
 			       		<div id="border-left-color4" class="show">
 			       			<a href="contact.html" class="cnt-contact-me">
-			       				<span class="txt-gif">CONTACTAME</span>
+			       				<span class="txt-gif">CONTÁCTAME</span>
 			       				<img class="gif" src="img/contact.gif">
 			       			</a>
 			       		</div>
@@ -132,7 +133,7 @@
 							</div>
 							<div class="row margin-top-55">
 								<div class="col s12 center-align" id="content-scroll">
-									<span class="color-white">Click on the arrow to navigate</span>
+									<span class="color-white">Haga clic en la flecha para navegar</span>
 									<a href="#" id="first-scroll"  class="color-white display-block"><i id="scroll-drow1"  class="material-icons">&#xE5DB;</i></a>
 								</div>
 							</div>	
@@ -143,454 +144,145 @@
 			<div class="slide-push" id="slide-portfile">
 		        <div class="container-portfile">
 			        <div class="row color-white sin-margin-bottom">
-								 	<h2 class="center-align padding-portfile">PORTAFOLIO</h2>
+						<h2 class="center-align padding-portfile">PORTAFOLIO</h2>
 			        </div>
-							<div class="row sin-margin-bottom margin-top-17">
-								<div class="col s12">
-									<ul class="tabs tabs-sinbg">
-										<li class="tab col s3 tabs-font-size"><a class="active"  href="#test1">Todos</a></li>
-										<li class="tab col s3 tabs-font-size"><a href="#test2">HTML & CSS</a></li>
-										<li class="tab col s3 tabs-font-size"><a href="#test3">BOOSTRAP</a></li>
-										<li class="tab col s3 tabs-font-size"><a href="#test4">JS & JQUERY</a></li>
-										<li class="tab col s3 tabs-font-size"><a href="#test4">SASS</a></li>
-									</ul>
+		        </div>	
+				<div class="container">
+					<div class="row row-margin-botom-0">
+						<div class="col s3 l3 l3">
+							<div class="card">
+								<div class="height-100-px card-image waves-effect waves-block waves-light">
+									<img class="activator" src="img/portfile/michi.png">
 								</div>
-								<div id="test1" class="col s12 font-size-13">
-									<div class="row sin-margin-bottom padding-3">
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/layout.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Mi Grid<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/primer-layout" target="_blank">Ver Codigo</a> <a href="https://jazmmine.github.io/primer-layout/" target="_blank">Ver Demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Mi primer Grid<i class="material-icons right">close</i></span>
-													<p class="descripcion-portafolio">En este proyecto utilizamos Media Queries, HTML y CSS.</p>
-												</div>
-											</div>
-										</div>
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/danza.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Danza<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/escuela-danza" target="_blank">Ver Codigo</a> <a href="https://jazmmine.github.io/escuela-danza/" target="_blank">Ver demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Escuela de Danza<i class="material-icons right">close</i></span>
-													<p class="descripcion-portafolio">En este proyecto utilizamos Media Queries, HTML y CSS.</p>
-												</div>
-											</div>
-										</div>
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/ecomunidad.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Ecomunidad<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/ecomunidad" target="_blank">Ver Codigo</a> <a href="https://jazmmine.github.io/ecomunidad/" target="_blank">Ver Demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Ecomunidad<i class="material-icons right">close</i></span>
-													<p class="descripcion-portafolio">En este proyecto utilizamos Media Queries, HTML y CSS.</p>
-												</div>
-											</div>
-										</div>
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/blog.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Blog<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/RESPONSIVE-BLOG" target="_blank">Ver codigo</a> <a href="https://jazmmine.github.io/RESPONSIVE-BLOG/" target="_blank">Ver demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Blog<i class="material-icons right">close</i></span>
-													<p class="descripcion-portafolio">En este proyecto utilizamos Media Queries, HTML y CSS.</p>
-												</div>
-											</div>
-										</div>	
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/user.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">User 360<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/user360" target="_blank">Ver Codigo</a> <a href="https://jazmmine.github.io/user360" target="_blank">Ver Demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">User 360<i class="material-icons right">close</i></span>
-													<p class="descripcion-portafolio">En este proyecto utilizamos Media Queries, HTML y CSS.</p>
-												</div>
-											</div>
-										</div>
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/portafolio.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Portafolio<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/portafolio" target="_blank">Ver codigo</a> <a href="https://jazmmine.github.io/portafolio/" target="_blank">Ver demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Portafolio<i class="material-icons right">close</i></span>
-													<p class="descripcion-portafolio">En este proyecto utilizamos Media Queries, HTML y CSS</p>
-												</div>
-											</div>
-										</div>									
-									</div>
-									<div class="row sin-margin-bottom">
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/republica.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Republica<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/dopamint25/la-republica" target="_blank">Ver codigo</a> <a href="https://dopamint25.github.io/la-republica/" target="_blank">Ver Demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Republica<i class="material-icons right">close</i></span>
-													<p class="descripcion-portafolio">En este proyecto grupal utilizamos Media Queries, HTML y CSS.</p>
-												</div>
-											</div>
-										</div>
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/bitacora.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Bitacora<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/bitacoraIndie" target="_blank">Ver codigo</a> <a href="https://jazmmine.github.io/bitacoraIndie/" target="_blank">Ver Demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Bitacora<i class="material-icons right">close</i></span>
-													<p class="descripcion-portafolio">En este proyecto grupal utilizamos HTML, CSS, BOOSTRAP y JAVASCRIPT(Objetos)</p>
-												</div>
-											</div>
-										</div>
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/twitter.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Twitter<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/demotwitter" target="_blank">Ver codigo</a> <a href="https://jazmmine.github.io/demotwitter/" target="_blank">Ver Demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Twitter<i class="material-icons right">close</i></span>
-													<p class="descripcion-portafolio">En este proyecto  utilizamos HTML, CSS, BOOSTRAP y JAVASCRIPT(Objetos).</p>
-												</div>
-											</div>
-										</div>
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/trello.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Trello<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/trellodemo" target="_blank">Ver codigo</a> <a href="https://jazmmine.github.io/trellodemo/" target="_blank">Ver Demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Trello<i class="material-icons right">close</i></span>
-													<p class="descripcion-portafolio">En este proyecto  utilizamos HTML, CSS, BOOSTRAP y JQUERY.</p>
-												</div>
-											</div>
-										</div>	
-										<div class="col s2">
-											<div class="card sin-margin-bottom">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/lyft.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Lyft<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/lift" target="_blank">Ver codigo</a> <a href="https://jazmmine.github.io/lift/" target="_blank">Ver Demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Lyft<i class="material-icons right">close</i></span>
-													<p class="descripcion-portafolio">En este proyecto  utilizamos HTML, CSS, BOOSTRAP, JQUERY y GEOCOLOZACION.</p>
-												</div>
-											</div>
-										</div>									
-									</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">TIC-TAC-TOE<i class="material-icons right">more_vert</i></span>
+									<p><a href="#">DEMO</a> <a class="margin-left-41" href="https://github.com/Jazmmine/michicoders">CÓDIGO</a></p>
 								</div>
-								<div id="test2" class="col s12 font-size-13">
-									<div class="row sin-margin-bottom padding-3">
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/layout.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Mi Grid<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/primer-layout" target="_blank">Ver Codigo</a> <a href="https://jazmmine.github.io/primer-layout/" target="_blank">Ver Demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Mi primer Grid<i class="material-icons right">close</i></span>
-													<p>En este proyecto utilizamos Media Queries, HTML y CSS.</p>
-												</div>
-											</div>
-										</div>
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/danza.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Danza<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/escuela-danza" target="_blank">Ver Codigo</a> <a href="https://jazmmine.github.io/escuela-danza/" target="_blank">Ver demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Escuela de Danza<i class="material-icons right">close</i></span>
-													<p>En este proyecto utilizamos Media Queries, HTML y CSS.</p>
-												</div>
-											</div>
-										</div>
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/ecomunidad.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Ecomunidad<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/ecomunidad" target="_blank">Ver Codigo</a> <a href="https://jazmmine.github.io/ecomunidad/" target="_blank">Ver Demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Ecomunidad<i class="material-icons right">close</i></span>
-													<p>En este proyecto utilizamos Media Queries, HTML y CSS.</p>
-												</div>
-											</div>
-										</div>
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/blog.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Blog<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/RESPONSIVE-BLOG" target="_blank">Ver codigo</a> <a href="https://jazmmine.github.io/RESPONSIVE-BLOG/" target="_blank">Ver demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Blog<i class="material-icons right">close</i></span>
-													<p>En este proyecto utilizamos Media Queries, HTML y CSS.</p>
-												</div>
-											</div>
-										</div>	
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/user.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">User 360<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/user360" target="_blank">Ver Codigo</a> <a href="https://jazmmine.github.io/user360" target="_blank">Ver Demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">User 360<i class="material-icons right">close</i></span>
-													<p>En este proyecto utilizamos Media Queries, HTML y CSS.</p>
-												</div>
-											</div>
-										</div>
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/portafolio.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Portafolio<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/portafolio" target="_blank">Ver codigo</a> <a href="https://jazmmine.github.io/portafolio/" target="_blank">Ver demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Portafolio<i class="material-icons right">close</i></span>
-													<p>En este proyecto utilizamos Media Queries, HTML y CSS</p>
-												</div>
-											</div>
-										</div>									
-									</div>
-								</div>
-								<div id="test3" class="col s12 font-size-13">
-									<div class="row sin-margin-bottom">
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/republica.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Republica<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/dopamint25/la-republica" target="_blank">Ver codigo</a> <a href="https://dopamint25.github.io/la-republica/" target="_blank">Ver Demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Republica<i class="material-icons right">close</i></span>
-													<p>En este proyecto grupal utilizamos Media Queries, HTML y CSS.</p>
-												</div>
-											</div>
-										</div>
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/bitacora.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Bitacora<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/bitacoraIndie" target="_blank">Ver codigo</a> <a href="https://jazmmine.github.io/bitacoraIndie/" target="_blank">Ver Demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Bitacora<i class="material-icons right">close</i></span>
-													<p>En este proyecto grupal utilizamos HTML, CSS, BOOSTRAP y JAVASCRIPT(Objetos)</p>
-												</div>
-											</div>
-										</div>
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/twitter.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Twitter<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/demotwitter" target="_blank">Ver codigo</a> <a href="https://jazmmine.github.io/demotwitter/" target="_blank">Ver Demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Twitter<i class="material-icons right">close</i></span>
-													<p>En este proyecto  utilizamos HTML, CSS, BOOSTRAP y JAVASCRIPT(Objetos).</p>
-												</div>
-											</div>
-										</div>
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/trello.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Trello<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/trellodemo" target="_blank">Ver codigo</a> <a href="https://jazmmine.github.io/trellodemo/" target="_blank">Ver Demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Trello<i class="material-icons right">close</i></span>
-													<p>En este proyecto  utilizamos HTML, CSS, BOOSTRAP y JQUERY.</p>
-												</div>
-											</div>
-										</div>	
-										<div class="col s2">
-											<div class="card sin-margin-bottom">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/lyft.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Lyft<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/lift" target="_blank">Ver codigo</a> <a href="https://jazmmine.github.io/lift/" target="_blank">Ver Demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Lyft<i class="material-icons right">close</i></span>
-													<p>En este proyecto  utilizamos HTML, CSS, BOOSTRAP, JQUERY y GEOCOLOZACION.</p>
-												</div>
-											</div>
-										</div>									
-									</div>								
-								</div>
-								<div id="test4" class="col s12 font-size-13">
-									<div class="row sin-margin-bottom">
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/republica.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Republica<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/dopamint25/la-republica" target="_blank">Ver codigo</a> <a href="https://dopamint25.github.io/la-republica/" target="_blank">Ver Demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Republica<i class="material-icons right">close</i></span>
-													<p>En este proyecto grupal utilizamos Media Queries, HTML y CSS.</p>
-												</div>
-											</div>
-										</div>
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/bitacora.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Bitacora<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/bitacoraIndie" target="_blank">Ver codigo</a> <a href="https://jazmmine.github.io/bitacoraIndie/" target="_blank">Ver Demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Bitacora<i class="material-icons right">close</i></span>
-													<p>En este proyecto grupal utilizamos HTML, CSS, BOOSTRAP y JAVASCRIPT(Objetos)</p>
-												</div>
-											</div>
-										</div>
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/twitter.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Twitter<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/demotwitter" target="_blank">Ver codigo</a> <a href="https://jazmmine.github.io/demotwitter/" target="_blank">Ver Demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Twitter<i class="material-icons right">close</i></span>
-													<p>En este proyecto  utilizamos HTML, CSS, BOOSTRAP y JAVASCRIPT(Objetos).</p>
-												</div>
-											</div>
-										</div>
-										<div class="col s2">
-											<div class="card">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/trello.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Trello<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/trellodemo" target="_blank">Ver codigo</a> <a href="https://jazmmine.github.io/trellodemo/" target="_blank">Ver Demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Trello<i class="material-icons right">close</i></span>
-													<p>En este proyecto  utilizamos HTML, CSS, BOOSTRAP y JQUERY.</p>
-												</div>
-											</div>
-										</div>	
-										<div class="col s2">
-											<div class="card sin-margin-bottom">
-												<div class="card-image waves-effect waves-block waves-light">
-													<img class="activator" src="img/portfile/lyft.png">
-												</div>
-												<div class="card-action">
-													<span class="font-size-32 card-title activator grey-text text-darken-4">Lyft<i class="material-icons right">more_vert</i></span>
-													<p><a href="https://github.com/Jazmmine/lift" target="_blank">Ver codigo</a> <a href="https://jazmmine.github.io/lift/" target="_blank">Ver Demo</a></p>
-												</div>
-												<div class="card-reveal">
-													<span class="font-size-32 card-title grey-text text-darken-4">Lyft<i class="material-icons right">close</i></span>
-													<p>En este proyecto  utilizamos HTML, CSS, BOOSTRAP, JQUERY y GEOCOLOZACION.</p>
-												</div>
-											</div>
-										</div>									
-									</div>										
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">TIC-TAC-TOE<i class="material-icons right">close</i></span>
+									<p>Utilizamos la librería socket.io, que nos  permitió manejar el juego en tiempo real entre dos jugadores.</p>
 								</div>
 							</div>
-
-		        </div>	
-						<div class="container">
-										<div class="row container-scroll-skew" id="container-icoAndtext-scroll-drow">
-											<div class="col s12 center-align">
-												<span class="color-white">Click on the arrow to navigate</span>
-											</div>
-											<div class="col s12 center-align">
-		            				<a  id="second-scroll" class="color-white drow-icon" href="#"><i id="scroll-drow2"  class="material-icons ">&#xE5DB;</i></a>
-											</div>
-										</div>	
-						</div>			
+						</div>
+						<div class="col s3 l3">
+							<div class="card">
+								<div class="height-100-px card-image waves-effect waves-block waves-light">
+									<img class="activator" src="img/portfile/lyft.png">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">LYFT<i class="material-icons right">more_vert</i></span>
+									<p><a href="https://jazmmine.github.io/lift/">DEMO</a> <a class="margin-left-41" href="https://github.com/Jazmmine/lift">CÓDIGO</a></p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">LYFT<i class="material-icons right">close</i></span>
+									<p>Proyecto app móvil para solicitud de taxis haciendo uso de jquery.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col s3 l3">
+							<div class="card">
+								<div class="height-100-px card-image waves-effect waves-block waves-light">
+									<img class="activator" src="img/portfile/trello.png">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">TRELLO<i class="material-icons right">more_vert</i></span>
+									<p><a href="https://jazmmine.github.io/trellodemo/">DEMO</a> <a class="margin-left-41" href="https://github.com/Jazmmine/trellodemo">CÓDIGO</a></p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">TRELLO<i class="material-icons right">close</i></span>
+									<p>Proyecto de simulación del gestor de tareas, Trello, con el uso del API drag an drop.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col s3 l3">
+							<div class="card">
+								<div class="height-100-px card-image waves-effect waves-block waves-light">
+									<img class="activator" src="img/portfile/twitter.png">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">TWITTER<i class="material-icons right">more_vert</i></span>
+									<p><a href="https://jazmmine.github.io/demotwitter/">DEMO</a> <a class="margin-left-41" href="https://github.com/Jazmmine/demotwitter">CÓDIGO</a></p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">TWITTER<i class="material-icons right">close</i></span>
+									<p>Proyecto de replica de formatos de posts de twitter..</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col s3 l3">
+							<div class="card">
+								<div class="height-100-px card-image waves-effect waves-block waves-light">
+									<img class="activator" src="img/portfile/bitacora.png">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">BITACORA<i class="material-icons right">more_vert</i></span>
+									<p><a href="https://jazmmine.github.io/bitacoraIndie/">DEMO</a> <a class="margin-left-41" href="https://github.com/Jazmmine/bitacoraIndie">CÓDIGO</a></p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">JAVASCRIPT<i class="material-icons right">close</i></span>
+									<p>Proyecto de replica de las opciones de posts de tumblr.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col s3 l3">
+							<div class="card">
+								<div class="height-100-px card-image waves-effect waves-block waves-light">
+									<img class="activator" src="img/portfile/portafolio.png">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">PORTAFOLIO<i class="material-icons right">more_vert</i></span>
+									<p><a href="https://jazmmine.github.io/portafolio/">DEMO</a> <a class="margin-left-41" href="https://github.com/Jazmmine/portafolio">CÓDIGO</a></p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">HTML & CSS<i class="material-icons right">close</i></span>
+									<p>Landing page responsive con el uso del framework bootstrap.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col s3 l3">
+							<div class="card">
+								<div class="height-100-px card-image waves-effect waves-block waves-light">
+									<img class="activator" src="img/portfile/user.png">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">USER 360<i class="material-icons right">more_vert</i></span>
+									<p><a href="https://jazmmine.github.io/user360/">DEMO</a> <a class="margin-left-41" href="https://github.com/Jazmmine/user360">CÓDIGO</a></p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">HTML & CSS<i class="material-icons right">close</i></span>
+									<p>Landing page responsive sin el uso de frameworks</p>
+								</div>
+							</div>
+						</div>
+						<div class="col s3 l3">
+							<div class="card">
+								<div class="height-100-px card-image waves-effect waves-block waves-light">
+									<img class="activator" src="img/portfile/layout.png">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">MI GRID<i class="material-icons right">more_vert</i></span>
+									<p><a href="https://jazmmine.github.io/primer-layout/">DEMO</a> <a class="margin-left-41" href="https://github.com/Jazmmine/primer-layout">CÓDIGO</a></p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">HTML & CSS<i class="material-icons right">close</i></span>
+									<p>Landing page realizado con el framework simple grid</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>				
+				<div class="container">
+					<div class="row container-scroll-skew" id="container-icoAndtext-scroll-drow">
+						<div class="col s12 center-align">
+							<span class="color-white">Haga clic en la flecha para navegar</span>
+						</div>
+						<div class="col s12 center-align">
+							<a  id="second-scroll" class="color-white drow-icon" href="#"><i id="scroll-drow2"  class="material-icons ">&#xE5DB;</i></a>
+						</div>
+					</div>	
+				</div>			
 			</div>
 			<div class="slide-push" id="slide-skills">
 				<div class="container">
@@ -645,7 +337,7 @@
 				<div class="container">
 					<div class="row" id="container-icoAndtext-scroll-drow">
 						<div class="col s12 center-align">
-							<span class="color-white">Click on the arrow to navigate</span>
+							<span class="color-white">Haga clic en la flecha para navegar</span>
 						</div>
 						<div class="col s12 center-align">
 							<a  id="thirt-scroll" class="color-white drow-icon" href="#"><i id="scroll-drow3"  class="material-icons">&#xE5DB;</i></a>
@@ -657,7 +349,7 @@
 				<div class="container padding-3 color-white">
 					<div class="row">
 						<div class="col s12">
-							<h2 class="center-align">CONTACT ME</h2>
+							<h2 class="center-align">CONTÁCTAME</h2>
 						</div>
 					</div>
 					<div class="row">
@@ -679,13 +371,18 @@
 								</a>
 							</div>
 							<div class="col s3 width-img-contact">
-								<a href="https://www.google.com/gmail" id="btn-gmail" class="tooltipped btn-contc btn-floating btn-large waves-effect waves-lightteal  red accent-2" data-position="bottom" data-delay="50" data-tooltip="jazmine.angoma@gmail.com">
+								<a href="mailto:jazmine.angoma@gmail.com" id="btn-gmail" class="tooltipped btn-contc btn-floating btn-large waves-effect waves-lightteal  red accent-2" data-position="bottom" data-delay="50" data-tooltip="jazmine.angoma@gmail.com">
 									<img src="img/gmaill.png" alt="" class="hvr-img-pulse  ico-main circle height-32"> 
 								</a>
 							</div>
 							<div class="col s3 width-img-contact">
 								<a id="btn-phone" class="tooltipped btn-contc btn-floating btn-large waves-effect waves-lightteal  red accent-2" data-position="bottom" data-delay="50" data-tooltip="935381943">
 									<img src="img/phone.png" alt="" class="hvr-img-buzz ico-main circle height-32"> 
+								</a>
+							</div>
+							<div class="col s3 width-img-contact">
+								<a href="img/cv-jazmine.pdf" id="btn-phone" class="tooltipped btn-contc btn-floating btn-large waves-effect waves-lightteal  red accent-2" data-position="bottom" data-delay="50" data-tooltip="Descarga mi CV">
+									<img src="img/cv.png" alt="" class="hvr-img-wobble-vertical ico-main circle height-32"> 
 								</a>
 							</div>
 						</div>
@@ -705,7 +402,7 @@
 				<div class="row container-txt-info color-white">
 						<h2 class="center-align">UN POQUITO SOBRE MI</h2>
 						<p class="left-align description">Hola!, Tengo 22 años, soy desarrollador front-end web junior, de la quinta promoción LABORATORIA, con gran interés en el mundo del desarrollo web y programación. Comprometida con el desarrollo de productos digitales eficaces e innovadores y generar una buena experiencia de usuario. Soy creativo, adaptable y capaz de trabajar bajo presión.</p>
-						<p class="left-align description">Una palabra que me define? Determinación, ya que ...</p>
+						<p class="left-align description">Una palabra que me define? Determinación.</p>
 				</div>
 			</div>
 			<div class="container">
