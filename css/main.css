@@ -37,6 +37,10 @@ li,ol,ul{
 	font-size: 3rem;
 }
 
+.bg-navmobil{
+	background-color: rgba(41,91,96,0.9);
+}
+
 .btn-info{
 	border: 2px solid white;
     border-radius: 3px;
