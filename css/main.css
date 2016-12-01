@@ -381,52 +381,6 @@ li,ol,ul{
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
-	h3{
-    	font-size: 4.5rem;
-	}
-
-	h5{
-    	font-size: 3.5rem;
-	}
-	p{
-		font-size: 38px;
-	}
-
-	span{
-		font-size: 38px;
-	}
-	i{
-		font-size: 56px !important;
-	}
-
-	a{
-		font-size: 2rem;
-	}
-
-	.a-nav-scroll{
-		font-size: 2.5rem !important;
-	}
-	.nav-slider {
-    position: fixed;
-    z-index: 998;
-    display: table-cell;
-    top: 37vh;
-    right: 0;
-	}
-
-	.col-txt-main{
-		margin-top: 6rem;
-	}
-	.row-main-txt {
-		height: 39vh;
-		margin-top: 40rem;
-	}
-	.content-scroll > span{
-		font-size: 2rem;
-	}
-	.content-scroll > a > i{
-		font-size: 3rem;
-	}
 }
 
 /* Smartphones (landscape) ----------- */
@@ -436,27 +390,8 @@ li,ol,ul{
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
-	.nav-slider {
-    position: fixed;
-    z-index: 998;
-    display: table-cell;
-    top: 37vh;
-    right: 0;
-	}
 
-	.col-txt-main{
-		margin-top: 6rem;
-	}
-	.row-main-txt {
-		height: 39vh;
-		margin-top: 36rem;
-	}
-	.content-scroll > span{
-		font-size: 2rem;
-	}
-	.content-scroll > a > i{
-		font-size: 3rem;
-	}
+
 }
 
 
