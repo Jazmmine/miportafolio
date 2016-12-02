@@ -378,20 +378,14 @@ li,ol,ul{
 }
 
 /*Media Queries*/
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-
+@media all  and (max-width : 400px){
+		.query-titulo{
+			font-size: 5em;
+		}
+		.query-subtitulo{
+			font-size: 1.8em;
+		}
 }
 
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
-
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
-
-
-}
 
 
