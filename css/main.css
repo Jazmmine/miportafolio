@@ -385,6 +385,16 @@ li,ol,ul{
 		.query-subtitulo{
 			font-size: 1.8em;
 		}
+		.query-close{
+			top: 20px;
+    		right:  2px !important;;
+		}
+		.query-parrafo{
+			line-height: 1.5 !important;
+		}
+		.query-padding-top{
+			padding-top: 2rem;
+		}
 }
 
 
