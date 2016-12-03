@@ -492,6 +492,9 @@ li,ol,ul{
 			position: absolute !important;
     		top: 0 !important;
 		}
+		.query-sin-margin-left-0{
+			margin-left: 0 !important;
+		}
 }
 
 @media all and (min-width : 410px) and (max-width : 770px){
