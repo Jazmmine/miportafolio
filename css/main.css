@@ -398,10 +398,9 @@ li,ol,ul{
 		}
 		.query-padding-top{
 			padding-top: 2rem;
-			margin-bottom: 0 !important;
 		}
 		.query-margin-bottom{
-			margin-bottom: 0;
+			margin-bottom: 0 !important;
 		}
 		.query-sin-padding-left{
 			padding-left: 0 !important;
