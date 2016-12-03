@@ -411,13 +411,14 @@ li,ol,ul{
 		}
 		.query-font-size{
 			font-size: 3.04rem !important;
+			margin-bottom: 0 !important;
 		}
 		.query-padding-lados{
 			padding-left: 1.5em;
     		padding-right: 1.5em;
 		}
 		.query-sin-margin-left{
-			margin-left: 0 !important;
+			margin-left: 0.4 !important;
 		}
 		.query-margin-right{
 			margin-right: 0.5em !important;
@@ -436,6 +437,9 @@ li,ol,ul{
 		.query-margin-right{
 			margin-right: 0.5em !important;
 		}
+		.query-margin-left-porc{
+			margin-left: 2% !important;
+		}
 }
 
 @media all and (min-width : 410px) and (max-width : 770px){
@@ -447,8 +451,12 @@ li,ol,ul{
 			padding-left: 1.5em;
     		padding-right: 1.5em;
 		}
-		.query-padding-top{
-			padding-top: 1em;
+		.query-padding-top {
+			padding-top: 2.5rem;
+			margin-bottom: 0;
+		}
+		.query-margin-left-porc{
+			margin-left: 2% !important;
 		}
 }
 
