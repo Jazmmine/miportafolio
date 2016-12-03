@@ -402,6 +402,13 @@ li,ol,ul{
 		.query-margin-bottom{
 			margin-bottom: 0;
 		}
+		.query-sin-padding-left{
+			padding-left: 0 !important;
+		}
+		.query-herramienta{
+			position: relative;
+			left: 0;
+		}
 }
 
 
