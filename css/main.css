@@ -497,6 +497,11 @@ li,ol,ul{
 		.query-margin-left-0{
 			margin-left: 0 !important;
 		}
+		.query-portafolio-ctnt{
+			padding-top: 0 !important;
+			padding-left: 5px !important;
+			padding-right: 5px !important;
+		}
 }
 
 
