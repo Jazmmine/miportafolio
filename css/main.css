@@ -488,6 +488,15 @@ li,ol,ul{
 		.query-front-centrar{
 			padding-left: 4rem !important;
 		}
+		.query-portafolio-img-mayor{
+			height: 6rem !important;
+		}
+		.query-portafolio-titulo-mayor{
+			font-size: 1.1em !important;
+		}
+		.query-margin-left-0{
+			margin-left: 0 !important;
+		}
 }
 
 
