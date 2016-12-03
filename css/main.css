@@ -448,12 +448,12 @@ li,ol,ul{
 			left: 0 !important;
 		}
 		.query-padding-lados{
-			padding-left: 1.5em;
-    		padding-right: 1.5em;
+			padding-left: 1.5em !important;
+    		padding-right: 1.5em !important;
 		}
 		.query-padding-top {
-			padding-top: 2.5rem;
-			margin-bottom: 0;
+			padding-top: 2.5rem !important;
+			margin-bottom: 0 !important;
 		}
 		.query-margin-left-porc{
 			margin-left: 2% !important;
