@@ -336,6 +336,10 @@ li,ol,ul{
 	transform:rotateY(180deg);	
 }
 
+.padding-front{
+	padding-left: 8rem;
+}
+
 /*slide-contact*/
 #slide-contact{
 	position: absolute;
