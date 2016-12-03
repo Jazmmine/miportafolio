@@ -457,12 +457,18 @@ li,ol,ul{
 		}
 		.query-portafolio-icono{
 			position: absolute !important;
-			top: 2.5em !important;
 			right: 0 !important;
 		}
 		.query-portafolio-font-size{
-			    font-size: 0.8em !important;
-				margin-left: 0 !important;
+			font-size: 0.8em !important;
+			margin-left: 0 !important;
+		}
+		.query-portafolio-infor{
+			font-size: 1em !important;
+		}
+		.query-portafolio-close{
+			position: absolute !important;
+    		top: 0 !important;
 		}
 }
 
