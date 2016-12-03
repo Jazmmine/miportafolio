@@ -411,6 +411,13 @@ li,ol,ul{
 		}
 }
 
+@media all and (min-width : 410px) and (max-width : 770px){
+		.query-herramienta{
+			position: relative;
+			left: 0;
+		}
+}
+
 
 
 
