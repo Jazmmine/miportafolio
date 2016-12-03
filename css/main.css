@@ -460,7 +460,7 @@ li,ol,ul{
 		}
 
 		.query-front-centrar{
-			padding-left: 4rem;
+			padding-left: 4rem !important;
 		}
 }
 
