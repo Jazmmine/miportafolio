@@ -446,6 +446,24 @@ li,ol,ul{
 		.query-portafolio-img{
 			height: 4rem;
 		}
+		.query-portafolio-ctnt{
+			padding-top: 0 !important;
+			padding-left: 5px !important;
+			padding-right: 5px !important;
+		}
+		.query-portafolio-titulo{
+			font-size: 1em !important;
+    		line-height: 0 !important;
+		}
+		.query-portafolio-icono{
+			position: absolute !important;
+			top: 2.5em !important;
+			right: 0 !important;
+		}
+		.query-portafolio-font-size{
+			    font-size: 0.8em !important;
+				margin-left: 0 !important;
+		}
 }
 
 @media all and (min-width : 410px) and (max-width : 770px){
