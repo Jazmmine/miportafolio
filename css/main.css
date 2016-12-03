@@ -456,6 +456,10 @@ li,ol,ul{
 			padding-top: 5px !important;
     		font-size: 8px !important;
 		}
+		.query-margin-top{
+			margin-top: 3rem !important;
+			margin-bottom: 1.5rem !important;
+		}
 }
 
 @media all and (min-width : 410px) and (max-width : 415px){
@@ -495,6 +499,10 @@ li,ol,ul{
 		.query-sin-margin-left-0{
 			margin-left: 0 !important;
 		}
+		.query-margin-top{
+			margin-top: 3rem !important;
+			margin-bottom: 1.5rem !important;
+		}
 }
 
 @media all and (min-width : 410px) and (max-width : 770px){
@@ -521,6 +529,7 @@ li,ol,ul{
 		}
 		.query-margin-top{
 			margin-top: 3rem !important;
+			margin-bottom: 1.5rem !important;
 		}
 		.query-portafolio-ctnt{
 			padding-top: 0 !important;
