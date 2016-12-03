@@ -409,6 +409,27 @@ li,ol,ul{
 			position: relative;
 			left: 0;
 		}
+		.query-font-size{
+			font-size: 3.04rem !important;
+		}
+		.query-padding-lados{
+			padding-left: 1.5em;
+    		padding-right: 1.5em;
+		}
+		.query-sin-margin-left{
+			margin-left: 0 !important;
+		}
+		.query-margin-right{
+			margin-right: 0.5em !important;
+		}
+		.query-tamanio-icono{
+			width: 2.5em !important;
+    		height: 2.5em !important;
+		}
+		.query-img-de-icono{
+			height: 1.5em !important;
+			vertical-align: baseline !important;
+		}
 }
 
 @media all and (min-width : 410px) and (max-width : 770px){
