@@ -458,6 +458,10 @@ li,ol,ul{
 		.query-margin-left-porc{
 			margin-left: 2% !important;
 		}
+
+		.query-front-centrar{
+			padding-left: 4rem;
+		}
 }
 
 
