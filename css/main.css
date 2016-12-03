@@ -435,12 +435,14 @@ li,ol,ul{
 			height: 3em !important;
 		}
 		.query-portafolio-ctnt{
-			padding-top: 0 !important;
+			padding-top: 10px !important;
 			padding-left: 5px !important;
 			padding-right: 5px !important;
 		}
 		.query-portafolio-ti{
-			font-size: 1em !important;
+			font-weight: bold;
+			font-size: 8px !important;
+    		line-height: 1 !important;;
 		}
 		.query-poratfolio-icono-menor{
 			position: absolute !important;
@@ -449,6 +451,10 @@ li,ol,ul{
 		}
 		.query-sin-margin-left-0{
 			margin-left: 0 !important;
+		}
+		.query-padding-parrafo{
+			padding-top: 5px !important;
+    		font-size: 8px !important;
 		}
 }
 
