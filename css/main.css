@@ -519,9 +519,9 @@ li,ol,ul{
 		.query-portafolio-titulo-mayor{
 			font-size: 0.7em !important;
 		}
-	/*	.query-margin-left-0{
-			margin-left: 28% !important;
-		}*/
+		.query-margin-top{
+			margin-top: 3rem !important;
+		}
 		.query-portafolio-ctnt{
 			padding-top: 0 !important;
 			padding-left: 5px !important;
