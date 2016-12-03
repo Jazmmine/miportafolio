@@ -431,14 +431,30 @@ li,ol,ul{
 			height: 1.5em !important;
 			vertical-align: baseline !important;
 		}
+		.query-cnt-img{
+			height: 3em !important;
+		}
+		.query-portafolio-ctnt{
+			padding-top: 0 !important;
+			padding-left: 5px !important;
+			padding-right: 5px !important;
+		}
+		.query-portafolio-ti{
+			font-size: 1em !important;
+		}
+		.query-poratfolio-icono-menor{
+			position: absolute !important;
+			top: 2em !important;
+			right: 0em !important;
+		}
+		.query-sin-margin-left-0{
+			margin-left: 0 !important;
+		}
 }
 
 @media all and (min-width : 410px) and (max-width : 415px){
 		.query-margin-right{
 			margin-right: 0.5em !important;
-		}
-		.query-margin-left-porc{
-			margin-left: 2% !important;
 		}
 		.query-margin-left-porc{
 			margin-left: 2% !important;
