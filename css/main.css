@@ -443,15 +443,12 @@ li,ol,ul{
 			position: relative;
 			left: 0 !important;
 		}
-		.query-font-size{
-			font-size: 3.04rem !important;
-		}
 		.query-padding-lados{
 			padding-left: 1.5em;
     		padding-right: 1.5em;
 		}
-		.query-sin-margin-left{
-			margin-left: 0 !important;
+		.query-padding-top{
+			padding-top: 1em;
 		}
 }
 
