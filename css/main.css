@@ -440,6 +440,9 @@ li,ol,ul{
 		.query-margin-left-porc{
 			margin-left: 2% !important;
 		}
+		.query-margin-left-porc{
+			margin-left: 2% !important;
+		}
 }
 
 @media all and (min-width : 410px) and (max-width : 770px){
