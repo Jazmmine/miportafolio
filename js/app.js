@@ -137,8 +137,8 @@ function loadSkills(){
 	        backgroundBorderWidth: 1,
 	        percent: 78,
 	        iconColor: '#3498DB',
-	        text: 'CSS3',
-	        iconSize: '50',
+	        text: 'SASS',
+	        iconSize: '45',
 	        iconPosition: 'middle',
 			textColor:'#ffffff'
 	     });	
@@ -198,6 +198,32 @@ function loadSkills(){
 	        iconPosition: 'middle',
 			textColor:'#ffffff'
 	     });	
+	    $("#visual-circle").empty();
+	    $("#visual-circle").circliful({
+	        animation: 1,
+	        animationStep: 6,
+	        foregroundBorderWidth: 5,
+	        backgroundBorderWidth: 1,
+	        percent: 40,
+	        iconColor: '#3498DB',
+	        text: 'Visual Studio',
+	        iconSize: '40',
+	        iconPosition: 'middle',
+			textColor:'#ffffff'
+	     });
+	    $("#linux-circle").empty();
+	    $("#linux-circle").circliful({
+	        animation: 1,
+	        animationStep: 6,
+	        foregroundBorderWidth: 5,
+	        backgroundBorderWidth: 1,
+	        percent: 40,
+	        iconColor: '#3498DB',
+	        text: 'Linux',
+	        iconSize: '40',
+	        iconPosition: 'middle',
+			textColor:'#ffffff'
+	     });
 }
 
 function animarNombre(){
