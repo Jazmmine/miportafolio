@@ -151,7 +151,7 @@ function loadSkills(){
 	        backgroundBorderWidth: 1,
 	        percent: 50,
 	        iconColor: '#3498DB',
-	        text: 'Javascript',
+	        text: 'Angular2',
 	        iconSize: '50',
 	        iconPosition: 'middle',
 			textColor:'#ffffff'
